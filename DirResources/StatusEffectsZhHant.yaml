@@ -1,0 +1,237 @@
+CirnoRCharacterFrostEtchingImprintSe:
+  Name: 極度霜寒
+  Description: 打出藍色牌後, 對隨機敵人施加|霜凍| {Value1} 次.
+  Brief: 打出藍色牌後, 對隨機敵人施加|霜凍| {Value1} 次.
+
+CirnoRCharacterFrostflowSe:
+  Name: 冰脈
+  Description: 每回合開始時, {PlayerName}獲得{CirnoRCharacterFrostValue}層|凝霜|.
+  Brief: 每回合開始時, {PlayerName}獲得{CirnoRCharacterFrostValue}層|凝霜|.
+
+
+CirnoRCharacterFrostCondensationSe:
+  Name: 凝霜
+  Description: |-
+    每次對敵人造成傷害時, 層數減壹, 對目標敵人施加|霜凍|
+  Brief: |-
+    每次對敵人造成傷害時, 層數減壹, 對目標敵人施加|霜凍|
+
+CirnoRCharacterFrostSe:
+  Name: 霜凍
+  Description: |-
+    {OwnerName}回合開始時，獲得{TempFirepowerNegativeValue}點|暫失火力|，移除|霜凍|。
+    再次受到|霜凍|效果時受到{BaseDamage}點傷害並施加|凍傷|，
+  Brief: |-
+    {OwnerName}回合開始時，獲得{TempFirepowerNegativeValue}點|暫失火力|，移除|霜凍|。
+    再次受到|霜凍|效果時受到{BaseDamage}點傷害並施加|凍傷|，
+
+CirnoRCharacterFrozenHexagramSe:
+  Name: 六芒星冰晶
+  Description: 打出藍色牌後, {PlayerName}獲得{TempFirepowerValue}層|暫得火力|和{ShieldValue}層|護盾|, 每回合結束減少壹層.
+  Brief: 打出藍色牌後, {PlayerName}獲得{TempFirepowerValue}層|暫得火力|和{ShieldValue}層|護盾|, 每回合結束減少壹層.
+
+CirnoRCharacterFrozenHexagramShieldSe:
+  Name: 冰結六芒星盾
+  Description: |-
+    在{PlayerName}的回合結束時，獲得{ShieldValue}點|護盾|，增加{PlayerName}{LockedOnValue}層|鎖定|。
+  Brief: |-
+    在{PlayerName}的回合結束時，獲得{ShieldValue}點|護盾|，增加{PlayerName}{LockedOnValue}層|鎖定|。
+
+CirnoRCharacterNaturalGrowthSe:
+  Name: 自然生長
+  Description: |-
+    每使用{Value1}點{Mana}點法力, 將壹張|妖精之花|加入手中。
+  Brief: |-
+    每使用{Value1}點{Mana}法力, 將壹張|妖精之花|加入手中。
+
+CirnoRCharacterElfFlowerFieldSe:
+  Name: 盛夏花開
+  Description: |-
+    每次{PlayerName}回合開始時, 獲得{Mana}。
+    每次{PlayerName}回合開始時, 將{TempCirnoRCharacterFairyFlowerValue}張|妖精之花|加入手中。
+  Brief: |-
+    每次{PlayerName}回合開始時, 獲得{Mana}。
+    每次{PlayerName}回合開始時, 將{TempCirnoRCharacterFairyFlowerValue}張|妖精之花|加入手中。
+
+CirnoRCharacterDaiyouseiBlessSe:
+  Name: 大妖精的祝福
+  Description: |-
+    每次{PlayerName}打出綠色牌時, 獲得{TempFirepowerValue}層|暫得火力|。
+  Brief: |-
+    每次{PlayerName}打出綠色牌時, 獲得{TempFirepowerValue}層|暫得火力|。
+
+CirnoRCharacterGuardianOfDaiyouseiSe:
+  Name: 大妖精的守護
+  Description: |-
+    每次{PlayerName}回合結束時, 獲得{TempCirnoRCharacterGuardianOfNatureSeValue}層|自然庇護|。
+  Brief: |-
+    每次{PlayerName}回合結束時, 獲得{TempCirnoRCharacterGuardianOfNatureSeValue}層|自然庇護|。
+
+CirnoRCharacterGuardianOfNatureSe:
+  Name: 自然庇護
+  Description: |-
+    每次受到來源敵人的傷害時，層數減壹，並對傷害來源施加{Value1}層|自然消亡|。
+  Brief: |-
+    每次受到來源敵人的傷害時，層數減壹，並對傷害來源施加{Value1}層|自然消亡|。
+
+CirnoRCharacterDeathOfNatureSe:
+  Name: 自然消亡
+  Description: |-
+    擁有此印記的角色在他的回合結束時或者{PlayerName}施展治愈時，失去{loseHpValue}點生命，如果敵人擁有|凍傷|, 額外失去{loseHpValueForFrost}點生命。
+    |自然消亡|無法被移除。
+  Brief: |-
+    擁有此印記的角色在他的回合結束時或者{PlayerName}施展治愈時，失去{loseHpValue}點生命，如果敵人擁有|凍傷|, 額外失去{loseHpValueForFrost}點生命。
+    |自然消亡|無法被移除。
+
+CirnoRCharacterEntangledRootsSe:
+  Name: 根須纏繞
+  Description: |-
+    {Level}回合無法行動。
+  Brief: |-
+    {Level}回合無法行動。
+
+CirnoRCharacterNaturalFieldSe:
+  Name: 自然領域
+  Description: |-
+    每次{PlayerName}回合結束時, 層數減壹, 對所有敵人施加{Value1}層|自然消亡|
+  Brief: |-
+    每次{PlayerName}回合結束時, 層數減壹, 對所有敵人施加{Value1}層|自然消亡|
+
+CirnoRCharacterFairyFeatherSe:
+  Name: 妖精之羽
+  Description: |-
+    每次{PlayerName}打出綠色牌時, 對隨機敵人施加 {Value1}層 |自然消亡|
+  Brief: |-
+    每次{PlayerName}打出綠色牌時, 對隨機敵人施加 {Value1}層 |自然消亡|。
+
+CirnoRCharacterFairyFlowerSe:
+  Name: 妖精之花
+  Description: |-
+    {SourceCardName}額外造成{additionalDamageValue}點傷害。
+  Brief: |-
+    {SourceCardName}額外造成{additionalDamageValue}點傷害。
+
+CirnoRCharacterForceOfNatureSe: 
+  Name: 自然之聲 
+  Description: |- 
+    {PlayerName}的回合開始時，獲得 {Level} 點{Mana}。    
+  Brief: |- 
+    {PlayerName}的回合開始時，獲得 {Level} 點{Mana}。
+
+CirnoRCharacterWindGodBoostSe:
+  Name: 風神助推
+  Description: |-
+    {PlayerName}每回合結束時，獲得{GrazeLevel}層數的|閃避|，層數減壹。
+  Brief: |-
+    {PlayerName}每回合結束時，獲得{GrazeLevel}層數的|閃避|，層數減壹。
+
+CirnoRCharacterTheHiddenBiosphereSe:
+  Name: 被隱藏的生物圈
+  Description: |-
+    {PlayerName}回合結束時，觸發所有敵人的|自然消亡|。
+  Brief: |-
+    {PlayerName}回合結束時，觸發所有敵人的|自然消亡|。
+
+CirnoRCharacterMagicGrenadeSe:
+  Name: 魔法餘波
+  Description: |-
+    {OwnerName}回合開始時，有30%機率無法行動，之後，移除該效果。
+  Brief: |-
+    {OwnerName}回合開始時，有30%機率無法行動，之後，移除該效果。
+
+CirnoRCharacterMuggleWandSe:
+  Name: 槍傷
+  Description: |-
+    {OwnerName}回合結束時，失去生命上限3%点的生命。
+  Brief: |-
+    {OwnerName}回合結束時，失去生命上限3%点的生命。
+
+CirnoRCharacterIceSoulSe:
+  Name: 冰魄
+  Description: |-
+    每次使用藍色牌, 獲得 {blockValue} 點格擋。
+    每次對敵人施加|霜凍|時，獲得 {shieldValue} 點護盾。
+  Brief: |-
+    每次使用藍色牌, 獲得 {blockValue} 點格擋。
+    每次對敵人施加|霜凍|時，獲得 {shieldValue} 點護盾。
+
+CirnoRCharacterFrostbiteSe:
+  Name: 凍傷
+  Description: |-
+    {OwnerName} 回合開始時，失去 {StackDamage} 點生命。
+    因爲|凍傷|在回合開始受到傷害達到 {damageCount} 次時，{OwnerName}獲得壹層|冰封|，重置計數器。
+  Brief: |-
+    {OwnerName} 回合開始時，失去 {StackDamage} 點生命。
+    因爲|凍傷|在回合開始受到傷害達到 {damageCount} 次時，{OwnerName}獲得壹層|冰封|，重置計數器。
+
+CirnoRCharacterFrostUpSe:
+  Name: 霜蝕
+  Description: |-
+    |凍傷|造成的傷害提升 {Value1} 倍。
+  Brief: |-
+    |凍傷|造成的傷害提升 {Value1} 倍。
+
+CirnoRCharacterMoistSe:
+  Name: 凍雨
+  Description: |-
+    |霜凍|和|凍傷|造成的基礎傷害提高 {Value1} 點。
+  Brief: |-
+    |霜凍|和|凍傷|造成的基礎傷害提高 {Value1} 點。
+
+CirnoRCharacterFrostDomainSe:
+  Name: 霜域
+  Description: |-
+    每次施加|霜凍|時，也會觸發|凍傷|。
+  Brief: |-
+    每次施加|霜凍|時，也會觸發|凍傷|。
+
+
+CirnoRCharacterFreezeBloodIntoIceSe: 
+  Name: 凝血成冰
+  Description: |-
+    每次自己回合開始時, 失去 {loseHpValue} 點生命, 獲得 {firepowerValue} 點火力。
+  Brief: |-
+    每次自己回合開始時, 失去 {loseHpValue} 點生命, 獲得 {firepowerValue} 點火力。
+
+CirnoRCharacterFrozenSe:
+  Name: 冰封
+  Description: |-
+    {Value1}回合無法行動。
+  Brief: |-
+    {Value1}回合無法行動。
+
+CirnoRCharacterIceTearsSe:
+  Name: 冰淚
+  Description: |-
+    {PlayerName} 每次失去生命時，如果傷害來源於敵人，對該敵人施加|霜凍|並觸發|凍傷|。
+  Brief: |-
+    {PlayerName} 每次失去生命時，如果傷害來源於敵人，對該敵人施加|霜凍|並觸發|凍傷|。
+
+CirnoRCharacterFairyTeaPartySe:
+  Name: 妖精的茶會
+  Description: |-
+    每打出壹張藍色牌，抽壹張牌；每打出壹張綠色牌，獲得 <sprite="ManaSprite" name="P">，(抽牌數和獲得法力數累計不超過 {limitValue} 次, 剩余 {leftValue} 次)，回合結束時移除該增益。
+  Brief: |-
+    每打出壹張藍色牌，抽壹張牌；每打出壹張綠色牌，獲得 <sprite="ManaSprite" name="P">，(抽牌數和獲得法力數累計不超過 {limitValue} 次, 剩余 {leftValue} 次)，回合結束時移除該增益。
+
+
+CirnoRCharacterSpringAndTheFairySe: 
+  Name: 春與妖精
+  Description: |-
+    {PlayerName}的回合結束時，獲得 {Value1} 點|護盾|並恢複 {Value2} 點生命。
+  Brief: |-
+    {PlayerName}的回合結束時，獲得 {Value1} 點|護盾|並恢複 {Value2} 點生命。
+    
+CirnoRCharacterSymbioticRootSe:
+  Name: 共棲根絡
+  Description: |-
+    {PlayerName} 每次失去生命時，如果傷害來源於敵人，觸發敵人的|自然消亡|。
+  Brief: |-
+    {PlayerName} 每次失去生命時，如果傷害來源於敵人，觸發敵人的|自然消亡|。
+
+CirnoRCharacterWalkingInTheRainSe:
+  Name: 雨中漫步
+  Description: |-
+    本回合中，每當你打出一張綠色牌，獲得 {Value1} 點格擋。
+  Brief: |-
+    本回合中，每當你打出一張綠色牌，獲得 {Value1} 點格擋。

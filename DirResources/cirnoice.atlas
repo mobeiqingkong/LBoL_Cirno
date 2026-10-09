@@ -1,0 +1,59 @@
+cirnoice.png
+size: 2048,1480
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+capeL
+  xy: 989, 0
+  size: 423, 742
+wingRM
+  xy: 0, 1341
+  size: 236, 137
+legL
+  xy: 0, 0
+  size: 336, 874
+capeR
+  xy: 1414, 0
+  size: 356, 722
+legR
+  xy: 338, 0
+  size: 649, 874
+body
+  xy: 0, 876
+  size: 469, 463
+head
+  xy: 471, 876
+  size: 428, 410
+eyeL
+  xy: 238, 1341
+  size: 76, 60
+eyeR
+  xy: 550, 1341
+  size: 72, 58
+eyeLg
+  xy: 316, 1341
+  size: 76, 60
+eyeRg
+  xy: 624, 1341
+  size: 72, 58
+eyeLb
+  xy: 394, 1341
+  size: 76, 60
+eyeRb
+  xy: 698, 1341
+  size: 72, 58
+lidL
+  xy: 472, 1341
+  size: 76, 60
+lidR
+  xy: 772, 1341
+  size: 72, 58
+wingLM
+  xy: 1549, 876
+  size: 269, 157
+wingRT
+  xy: 1229, 876
+  size: 318, 221
+wingLT
+  xy: 901, 876
+  size: 326, 230

@@ -1,0 +1,17 @@
+CirnoRCharacterExhibitA:
+  Name: 'Frostheart'
+  Description: |-
+    Provide {Mana} base mana. Add |Brave of Ice - Cirno|'s signature cards to the card pool.
+    At the start of the first turn each combat, gain {Value1} |Extreme Frost|.
+  FlavorText: |-
+    A heart-shaped ice crystal naturally formed in the Misty Lake, symbolizing the bond between the Ice Hero and her homeland. It contains the perpetual cold from the lakebed, allowing Cirno's freezing power to ebb and flow like tides.
+    "With the strongest fairy guarding it, no one can bully the Misty Lake! This ice heart contains the whole lake's winter - it'll freeze any bad guy who comes! ...Hey, are you shaking from emotion? It's definitely not because this heart is too cold!"
+
+CirnoRCharacterExhibitB:
+  Name: "Daiyousei's Blessing Wreath"
+  Description: |-
+    Provide {Mana} base mana. Add |Brave of Ice - Cirno|'s signature cards to the card pool.
+    At the start of combat, {PlayerName} gains {Value1} |Daiyousei's Blessing| and {Value1} |Natural Growth|.
+  FlavorText: |-
+    A wreath carefully woven by Daiyousei in the morning garden, each petal infused with pure natural magic and gentle blessings. It's not just a symbol of friendship, but also quietly weaves Daiyousei's "silent support" into strength for Cirno's journey.
+    "Since Cirno always charges ahead first... this wreath will help our care catch up with your footsteps. I've secretly added my blessings to it - it'll definitely make the battles easier!"

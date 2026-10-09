@@ -1,0 +1,587 @@
+CirnoRCharacterIcicleFall:
+  Name: Ice Sign『Icicle Fall』
+  Description: |-
+    Deal {Damage} damage to a random enemy {Value1} time{Value1:plural one='' other='s'}.
+    |Debut|: Draw {Value2} card{Value2:plural one='' other='s'}.
+  ExtraDescription1: |-
+    Deal {Damage} damage to a random enemy {Value1} time{Value1:plural one='' other='s'}.
+    |d:Debut: Draw {Value2} card{Value2:plural one='' other='s'}.|
+  FlavorText: "Don’t look up."
+
+CirnoRCharacterBindIceIntoASword:
+  Name: Ice Talisman 『Bind Ice into a Sword』
+  Description: |-
+    Deal {Damage} damage.
+    |Firepower| increases {SelfName}'s damage {Value1} time{Value1:plural one='' other='s'}.
+  FlavorText: "Sharp enough, and no one ever sees it coming."
+
+CirnoRCharacterHailstorm:
+  Name: Hail Sign『Hailstorm』
+  Description: Deal {Damage} damage to each enemy {Value1} time{Value1:plural one='' other='s'}.
+  FlavorText: "The forecast never sees me coming."
+
+CirnoRCharacterDiamondBlizzard:
+  Name: Snow Sign『Diamond Blizzard』
+  Description: Deal {Damage} damage to each enemy {Value1} time{Value1:plural one='' other='s'}.
+  UpgradedDescription: |-
+    Deal {Damage} damage to each enemy {Value1} time{Value1:plural one='' other='s'}.
+    Draw {Value2} card{Value2:plural one='' other='s'}.
+  FlavorText: "Think you can catch my diamonds?"
+
+CirnoRCharacterFrostColumns:
+  Name: Frost Sign『Frost Columns』
+  Description: |-
+    Gain {Block} |Block| and |Barrier|.
+    If any enemy intends to attack, apply {Value2} |Temporary Firepower Down| to each enemy.
+  FlavorText: "Rin. Pyo. To. Sha. Kai. Jin. Retsu. Zai. Zen!"
+
+CirnoRCharacterColdDivinity:
+  Name: Freeze Sign『Frozen Divinity』
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Apply |Frost| {Value1} time{Value1:plural one='' other='s'}.
+  FlavorText: "And God said, let there be ice. And there was ice."
+
+CirnoRCharacterMinusK:
+  Name: Freeze Sign『Minus K』
+  Description: |-
+    Lose {Value1} life.
+    Gain {Value2} |Frost Armor| and {Value3} |Reflection|.
+  FlavorText: "Absolute zero defense!"
+
+CirnoRCharacterColdSprinkler:
+  Name: Ice Block『Cold Sprinkler』
+  Description: |-
+    Apply |Frost| to each enemy.
+    Apply {Value1} turn{Value1:plural one='' other='s'} of |Weak| and |Vulnerable|.
+    Apply {Value2} |Temporary Firepower Down|.
+  FlavorText: "I come from the hills~ with orchids in hand~ plant them in my garden~ hoping they bloom early~ la la la la la~ here comes the sprinkler~"
+
+CirnoRCharacterSuperIceKick:
+  Name: Cold Body『Super Spin Ice Kick』
+  Description: |-
+    Deal {Damage} damage.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+  UpgradedDescription: |-
+    Deal {Damage} damage.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    Apply {Value2} |Frost|.
+  FlavorText: "Mind your back~"
+
+CirnoRCharacterSwordFreezer:
+  Name: Ice Sign『Sword Freezer』
+  Description: Gain {Value1} |Frost Condensation|.
+  FlavorText: "Popsicle, become a sword!"
+
+CirnoRCharacterFreezeAtmosphere:
+  Name: Freeze Sign『Flash-Freeze Atmosphere』
+  Description: |-
+    Gain {Value1} |Temporary Firepower|.
+    Each enemy gains {Value2} |Temporary Firepower Down|.
+  FlavorText: "Don’t breathe~"
+
+CirnoRCharacterIceTornado:
+  Name: Ice Blow『Ice Tornado』
+  Description: |-
+    Deal {Damage} damage to all enemies.
+    Add {Value2} |Freeze Beam| with |Exile| and |Ethereal| to your hand.
+  FlavorText: "Marisa’s review: “Your move is like my Master Spark — a party for physics amateurs.”"
+
+CirnoRCharacterGreatCrusher:
+  Name: Ice Block『Great Ice Crusher』
+  Description: |-
+    Add {Value1} |Freeze Beam| with |Exile| and |Ethereal| to your hand.
+    |Exile| up to {Value2} cards. For each card exiled this way, add {Value3} |Freeze Beam| with |Exile| and |Ethereal| to your hand.
+  FlavorText: "A notice from the Misty Lake Housing Authority: cleanup costs for shattered mega-ice are borne by the person it lands on."
+
+CirnoRCharacterPerfectGlacialist:
+  Name: Ice Sign『Perfect Glacialist』
+  Description: |- 
+    |Frostbite| damage is multiplied by {Value1}.
+  FlavorText: "Cirno said she got published yesterday... venue: the lake surface. Impact factor: ⑨."
+
+CirnoRCharacterFrostKing:
+  Name: Ice King『Frost King』
+  Description: |-
+    Gain |Ice Tears|.
+    Gain {Value2} |Extreme Frost|.
+  FlavorText: "Let me tell you myself: when it is all over, you will beg for my forgiveness. — Arthas"
+
+CirnoRCharacterFrostflow:
+  Name: Frostflow
+  Description: Gain {Value1} |Frostflow|.
+  FlavorText: "Veins of the glacier, endless rime."
+
+CirnoRCharacterFrozenHexagram:
+  Name: Frozen Hexagram
+  Description: |-
+    This turn, whenever you play a Blue card, gain {Value1} |Temporary Firepower| and {Value2} |Barrier|.
+  UpgradedDescription: |-
+    Gain {Value1} |Temporary Firepower| and {Value2} |Barrier|.
+    This turn, whenever you play a Blue card, gain {Value1} |Temporary Firepower| and {Value2} |Barrier|.
+  FlavorText: "In theory a hexagram seals anything. In practice it sealed a frog — and the frog hopped back out."
+
+CirnoRCharacterFrozenHexagramShield:
+  Name: Frozen Hexagram Shield
+  Description: |-
+    At the end of {PlayerName}'s turn, gain {Value1} |Barrier| and {Value2} |Lock On|.
+  FlavorText: "After Cirno’s umpteenth failed attempt at the “Frozen Hexagram” spell, the scattered ice crystals gathered on their own out in Misty Lake. In the angles where six prisms meet, frost flowers have frozen — left behind by the fingers that always tremble when she casts.\n“Watch closely! This is the ultimate shield this genius compressed out of ‘Frozen Hexagram’! Any enemy who comes near gets turned into an ice sculpture — even Reimu’s yin-yang orbs would freeze solid and roll away~” (proud hair flip)"
+
+CirnoRCharacterIcewindBarrier:
+  Name: Icewind Barrier
+  Description: |-
+    |Exile| up to {Value1} card{Value1:plural one='' other='s'} from the hand. For each card exiled this way, gain {Value2} |Barrier|, |Block|, and |Reflection|.
+  FlavorText: "After Cirno’s umpteenth failed attempt at the “Frozen Hexagram” spell, the scattered ice crystals gathered on their own out in Misty Lake. In the angles where six prisms meet, frost flowers have frozen — left behind by the fingers that always tremble when she casts.\n“Watch closely! This is the ultimate shield this genius compressed out of ‘Frozen Hexagram’! Any enemy who comes near gets turned into an ice sculpture — even Reimu’s yin-yang orbs would freeze solid and roll away~” (proud hair flip)"
+CirnoRCharacterZeroBoundary:
+  Name: Zero Boundary
+  Description: |-
+    Discard all cards in the hand. For each card discarded this way, gain {Value1} |Block| and deal {Damage} damage to each enemy.
+  FlavorText: "Let the frost purify everything!"
+
+CirnoRCharacterFrostEnergyBlessing:
+  Name: Frost Energy Condensation
+  Description: |-
+    |Choose|: Gain {Value1} |Temporary Firepower|; or gain {Value2} |Temporary Spirit|.
+  ExtraDescription1: Gain {Value1} |Temporary Firepower|.
+  ExtraDescription2: Gain {Value2} |Temporary Spirit|.
+  FlavorText: "Frost fell on my palm — and it was warm."
+
+CirnoRCharacterFriendMana:
+  Name: Gather Friends
+  Description: |-
+    Gain{Mana}.
+    |Overdraft| {Value2}.
+  UpgradedDescription: |-
+    Gain{Mana}.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    |Overdraft| {Value2}.
+  FlavorText: "Righteous beatdown — everyone in!"
+
+CirnoRCharacterGraze:
+  Name: Mist Body
+  Description: |-
+    Lose {Value1} life.
+    Gain {Value2} |Graze|.
+  FlavorText: "Turn your body to mist — in theory you dodge everything."
+
+CirnoRCharacterBravePressure:
+  Name: Brave's Pressure
+  Description: |-
+    Apply {Value1} turn{Value1:plural one='' other='s'} of |Weak| and |Vulnerable|.
+    Apply {Value2} |Temporary Firepower Down| and {Value2} |Lock On|.
+  FlavorText: "Cirno plants herself in the middle of Misty Lake, hands on hips, eyes sharp — then shouts: “The hero is here!” The frogs all hop away. It’s super effective."
+
+CirnoRCharacterExtraTurn:
+  Name: Misty Lake's Time Stop Prank
+  Description: End {PlayerName}'s turn. Then, take an extra turn. |Time Limit|{Mana}.
+  FlavorText: "Sakuya stops time. I can freeze it!"
+
+CirnoRCharacterDiscover:
+  Name: Discover Treasure
+  Description: |-
+    Choose {Value2} cards from |Ice Soul|, |Freeze Sign 'Perfect Freeze'|, |Ice Sign 'Ultimate Blizzard'| and {Value1} |Rare| cards to add to your hand. These cards have |Exile| and |Ethereal|. Non-|X Cost| cards become |Temporary| {Mana}.
+  FlavorText: "Three choices — I’ll take the shiniest."
+
+CirnoRCharacterPerfectFreeze:
+  Name: Freeze Sign『Perfect Freeze』
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Apply |Frost|.
+    Gain |Frost Domain| and 1 |Frost Erosion|.
+  FlavorText: "Cirno’s signature move, made for freezing frogs. Frog: “Ribbit?” Cirno: “That last one was a test freeze. This is the perfect version.”"
+
+CirnoRCharacterUltimateBlizzard:
+  Name: Ice Sign『Ultimate Blizzard』
+  Description: |-
+    |For each <sprite="ManaSprite" name="U"> spent|: Gain {Shield} |Barrier|.
+    |For each {Mana} spent|: Deal {Damage} damage to each enemy and apply |Frost|.
+  FlavorText: "I give it everything. Nothing held back."
+
+CirnoRCharacterOmnislash:
+  Name: Illusion Sign『Super ⑨ Omnislash』
+  Description: |-
+    For each attack card played this turn, {SelfName} costs{Mana} less.
+    Gain {Value1} |Graze|.
+    Deal {Damage} damage to each enemy {Value2} time{Value2:plural one='' other='s'}.
+    Gain {Value3} |Temporary Firepower| each time damage is dealt.
+    Gain 1 |Firepower| for every {Value4} damage instance dealt.
+  FlavorText: "Next time I’ll give you the full eight-blade flash."
+
+CirnoRCharacterCoolSunflower:
+  Name: Ice Sign『Cool Sunflower』
+  Description: Add {Value1} |Fairy Flower| to the hand.
+  UpgradedDescription: |-
+    Add {Value1} |Fairy Flower| to the hand.
+    Add {Value1} |Fairy Flower| that |temporarily cost|{Mana} to the draw pile.
+    Draw {Value2} card{Value2:plural one='' other='s'}.
+  FlavorText: "Sunflowers face the sun. Mine face me."
+
+CirnoRCharacterHeal:
+  Name: Fairy's Gospel
+  Description: |-
+    Gain {Value1} life.
+    Each enemy gains {Value2} life.
+  FlavorText: "The good news is for everyone."
+
+CirnoRCharacterSpringAndTheFairy:
+  Name: Spring and the Fairy
+  Description: |-
+    At the end of {PlayerName}'s turn, gain {Value1} |Barrier| and gain {Value1} life.
+  FlavorText: "Spring is here~ everything grows~"
+
+CirnoRCharacterTwinFairies:
+  Name: Twin Fairies
+  Description: |-
+    Gain{Mana}.
+    Gain{Mana} at the start of next turn.
+  FlavorText: "My princess... where are you?"
+
+CirnoRCharacterTruthOfNature:
+  Name: Truth of Nature
+  Description: |-
+    Gain{Mana} for each enemy.
+    Add a |Spring and the Fairy| to the hand.
+  FlavorText: "Nature doesn’t play fair. Neither do I."
+
+CirnoRCharacterDeathOfNature:
+  Name: Death of Nature
+  Description: Apply {Value1} |Nature's Demise| to each enemy.
+  FlavorText: "Everything meets its end eventually."
+
+CirnoRCharacterAlert:
+  Name: Alert
+  Description: |-
+    Gain {Block} |Block| and {Value2} |Reflection|.
+    If any enemy intends to attack, gain an additional {Shield} |Barrier|.
+  FlavorText: "Stay back — I’m counting to three!"
+
+CirnoRCharacterCoaching:
+  Name: Tutoring
+  Description: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    |Overdraft| {Value2}.
+  UpgradedDescription: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+  FlavorText: "I’ll copy yours first. Pay you back tomorrow."
+
+CirnoRCharacterTakeANap:
+  Name: Nap
+  Description: Draw {Value1} card{Value1:plural one='' other='s'}, add any green card{Value1:plural one='' other='s'} drawn this way to the hand.
+  FlavorText: "Don’t worry, don’t worry. Take a rest, take a rest."
+
+CirnoRCharacterCirnoDoNotGetSick:
+  Name: Baka Don't Catch Colds!
+  Description: Remove all negative status from {PlayerName}.
+  FlavorText: "Idiots don’t catch colds! I said so."
+
+CirnoRCharacterElfFlowerField:
+  Name: Fairy Flower Field
+  Description: |-
+    At the start of {PlayerName}'s turn, gain{Mana}.
+    At the start of {PlayerName}'s turn, add {Value1} |Fairy Flower| to the hand.
+  FlavorText: "So many flowers! I’ll sneak a few — nobody’s looking, right? Hehe."
+
+CirnoRCharacterTheGarland:
+  Name: Blessed Garland
+  Description: Whenever a green card is played, gain {Value2} |Temporary Firepower|.
+  FlavorText: "I look the best today."
+
+CirnoRCharacterNaturalize:
+  Name: Natural Balance
+  Description: |-
+    |Exile| up to {Value1} card{Value1:plural one='' other='s'} from the hand. For each card exiled this way, draw {Value2} card{Value2:plural one='' other='s'} and gain{Mana}.
+  FlavorText: "I learned to meditate too."
+
+CirnoRCharacterThornyJungle:
+  Name: Thorny Jungle
+  Description: |-
+    Gain {Block} |Block| and {Value2} |Nature's Protection|.
+  FlavorText: "This road is closed!"
+
+CirnoRCharacterNaturalField:
+  Name: Nature's Field
+  Description: |-
+    At the end of {PlayerName}'s turn, apply {Value1} |Nature's Demise| to each enemy, lasting {Value2} turn{Value2:plural one='' other='s'}.
+  FlavorText: "There’s a musty smell in the air."
+
+CirnoRCharacterEntangledRoots:
+  Name: Entangling Roots
+  Description: |-
+    Target cannot act for {Value1} turn{Value1:plural one='' other='s'}.
+    After playing this card, |Exile| all {SelfName} from the hand, draw pile, and discard pile.
+  FlavorText: "Can’t move now, can you?"
+
+CirnoRCharacterTheGiftOfFogLake:
+  Name: Gift of the Misty Lake
+  Description: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}, gain {Mana}.
+    |Overdraft| {Value2}.
+  UpgradedDescription: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}, gain {Mana}.
+    |Overdraft| {Value2}.
+  FlavorText: "A fairy’s gift is like this."
+
+CirnoRCharacterFairyFeather:
+  Name: Fairy Feather
+  Description: |-
+    Gain {Block} |Block|.
+    This turn, whenever a green card is used, apply {Value2} |Nature's Demise| to a random enemy.
+  FlavorText: "Lighter than snow, a fairy’s feather."
+
+CirnoRCharacterMakeASnowman:
+  Name: Build a Snowman
+  Description: |-
+    Gain {Shield} |Barrier|.
+    Gain {Value2} |Graze|.
+  FlavorText: "The mushroom was borrowed from Marisa."
+
+CirnoRCharacterFullyArmed:
+  Name: Fully Armed
+  Description: |-
+    Gain {Block} |Block|.
+    Gain {Value2} additional |Frost Armor| for each enemy with |Nature's Demise|.
+  FlavorText: "Turning rot into power."
+
+CirnoRCharacterFairyFlower:
+  Name: Fairy Flower
+  Description: |-
+    Deal {Damage} damage.
+    Damage is increased by {Value1} when attacking a target with |Frostbite|.
+    Damage is increased by {Value2} for each stack of |Nature's Demise| on the target.
+    Damage is increased by {Value2} for each |Midsummer Flower| or |Fairy Flower| played.
+    Apply |Nature's Demise|.
+  FlavorText: "A flower blessed by the princess — I’ll put it to good use."
+
+CirnoRCharacterForceOfNature:
+  Name: Voice of Nature
+  Description: |-
+    At the start of {PlayerName}'s turn, gain{Mana}.
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+  FlavorText: "The voice of nature is my power."
+
+CirnoRCharacterIceAndFlowers:
+  Name: Waltz of Ice and Flowers
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Apply |Frost| {Value1} time{Value1:plural one='' other='s'}.
+    Add {Value2} |Fairy Flower| to the hand. They |temporarily cost|{Mana}, have |Exile|, |Ethereal|, and |Accurate|.
+  FlavorText: "“One, two, three — spin!”... I stepped on a flower at step two."
+
+CirnoRCharacterCoolAfternoon:
+  Name: Cool Afternoon
+  Description: |-
+    |Choose|: Gain{Mana}; or gain {Shield} |Barrier|.
+  ExtraDescription1: Gain{Mana}.
+  ExtraDescription2: Gain {Shield} |Barrier|.
+  FlavorText: "Three in the afternoon, not a soul on the lake. I lie down and sleep till dusk."
+
+CirnoRCharacterGuardianOfDaiyousei:
+  Name: Daiyousei's Protection
+  Description: |-
+    Gain {Shield} |Barrier|.
+    At the end of {PlayerName}'s turn, gain {Value2} |Nature's Protection|.
+  FlavorText: "The princess guards my strength."
+
+CirnoRCharacterFairyWind:
+  Name: Fairy Wind
+  Description: |-
+    Remove all positive status from all enemies.
+    End {PlayerName}'s turn.
+  UpgradedDescription: |-
+    Remove all positive status from all enemies.
+    End {PlayerName}'s turn.
+  FlavorText: "This is magic!"
+
+CirnoRCharacterIcicleMachineGun:
+  Name: Ice Sign『Icicle Machine Gun』
+  Description: Deal {Damage} damage to a random enemy {Value1} time{Value1:plural one='' other='s'}.
+  FlavorText: "Rat-tat-tat-tat-tat—! ...How many was that? Never mind, I give up counting."
+
+CirnoRCharacterFairySpin:
+  Name: Ice Sign『Fairy Spin』
+  Description: |-
+    Draw {Value1} card{Value1:plural one='' other='s'}.
+    Draw {Value2} card{Value2:plural one='' other='s'} at the start of next turn.
+  FlavorText: "Round and round and round I go, blazing with the light of life~"
+
+CirnoRCharacterFuryFairy:
+  Name: Fairy's Fury
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Apply {Value1} |Nature's Demise|.
+  UpgradedDescription: |-
+    Deal {Damage} damage to each enemy.
+    Apply {Value1} |Nature's Demise|.
+  FlavorText: "The princess is really angry! Run~"
+
+CirnoRCharacterFriendDraw:
+  Name: Fairy Gathering
+  Description: |-
+    Gain{Mana}.
+    Refill the hand to {Value1} card{Value1:plural one='' other='s'}.
+    |Overdraft| {Value2}.
+  UpgradedDescription: |-
+    Gain{Mana}.
+    Refill the hand to {Value1} card{Value1:plural one='' other='s'}.
+    |Overdraft| {Value2}.
+  FlavorText: "Follow me! Left, right, left, right~"
+
+CirnoRCharacterNaturalOutbreak:
+  Name: Decaying Corruption
+  Description: |-
+    Apply {Value1} stack of |Nature's Demise| to all enemies.
+    Double the stack count of |Nature's Demise| on all enemies.
+  FlavorText: "Don’t come close. It reeks."
+
+CirnoRCharacterSummerCoolness:
+  Name: Summer Coolness
+  Description: Gain {Value1} life.
+  UpgradedDescription: Gain {Value1} life.
+  FlavorText: "Come summer, every fairy on the lake remembers me."
+
+CirnoRCharacterInstantFreezeRay:
+  Name: Cold Sign『Instant Freeze Ray』
+  Description: |-
+    Deal {Damage} damage.
+    Apply |Frost|.
+    Deal {Value1} additional damage for each stack of |Frostbite|.
+  FlavorText: "Marisa, let’s trade beams! I’m the strongest!"
+
+CirnoRCharacterNaturalPlague:
+  Name: Nature's Plague
+  Description: |-
+    Apply {Value1} |Nature's Demise| to the targeted enemy.
+    Apply {Value2} |Nature's Demise| to other enemies.
+  UpgradedDescription: |-
+    Apply {Value1} |Nature's Demise| to the targeted enemy.
+    Apply {Value2} |Nature's Demise| to other enemies.
+    Trigger |Nature's Demise| once on each enemy.
+  FlavorText: "Mask up. It’s contagious."
+
+CirnoRCharacterWindGodBoost:
+  Name: Wind God Boost
+  Description: Gain {Value1} |Wind God Boost|.
+  FlavorText: "A blessing from Aya."
+
+CirnoRCharacterWither:
+  Name: Wither
+  Description: |-
+    |For each <sprite="ManaSprite" name="G"> spent|: Apply {Value1} |Nature's Demise| to all enemies.
+    |For each {Mana} spent|: Trigger |Nature's Demise| on all enemies once.
+  UpgradedDescription: |-
+    Apply {Value1} |Nature's Demise| to all enemies.
+    |For each <sprite="ManaSprite" name="G"> spent|: Apply {Value1} |Nature's Demise| to all enemies.
+    |For each {Mana} spent|: Trigger |Nature's Demise| on all enemies once.
+  FlavorText: "Flowers will wither in the end."
+
+CirnoRCharacterTheHiddenBiosphere:
+  Name: The Hidden Biosphere
+  Description: |-
+    At the end of {PlayerName}'s turn, trigger |Nature's Demise| on each enemy.
+  FlavorText: "Something keeps stirring at the lake bottom. Some say it’s water. I know it isn’t."
+
+CirnoRCharacterFireworksFestival:
+  Name: Fireworks Festival
+  Description: Choose 1 of {Value1} random defense card{Value1:plural one='' other='s'} to add to the hand. It |temporarily costs|{Mana}.
+  FlavorText: "Ta-da~! The fireworks festival begins!"
+
+CirnoRCharacterIceTears:
+  Name: Ice Tears
+  Description: Gain 1 |Ice Tears|.
+  FlavorText: "“It’s raining.” “No it’s not...” “Yes it is!”"
+
+CirnoRCharacterFreezeBloodIntoIce:
+  Name: Frozen Blood into Ice
+  Description: |-
+    At the start of {PlayerName}'s turn, lose {Value1} life, Gain {Value1} |Firepower|.
+  UpgradedDescription: |-
+    Gain {Value1} |Firepower|.
+    At the start of {PlayerName}'s turn, lose {Value1} life, Gain {Value1} |Firepower|.
+  FlavorText: "This is my last Ripple!"
+
+CirnoRCharacterEncounterRain:
+  Name: Frozen Rain
+  Description: Gain {Value1} |Frozen Rain| and {Value2} |Frostflow|.
+  FlavorText: "Remember your umbrella~"
+
+CirnoRCharacterIceBead:
+  Name: Freeze Beam
+  Description: |-
+    Deal {Damage} damage.
+    Apply |Frost|.
+    This turn, for each blue card played, increase {SelfName}'s damage by {Value2}.
+    Deal {Value3} additional damage if the enemy has |Nature's Demise|.
+  FlavorText: "Bzzt———— bzzt———— bzzt———— Huh? Out of power?"
+
+CirnoRCharacterBloodShield:
+  Name: Blood into Shield
+  Description: |-
+    |Choose|: Lose {Value1} life, gain {Value2} |Barrier|; or lose {Value3} life, gain {Value4} |Barrier|.
+  ExtraDescription1: Lose {Value1} life, gain {Value2} |Barrier|.
+  ExtraDescription2: Lose {Value3} life, gain {Value4} |Barrier|.
+  FlavorText: "I can turn even blood into ice! Ordinary fairies can’t do that, you know! ...Huh? It stings a bit."
+
+CirnoRCharacterFairyTeaParty:
+  Name: Fairy Tea Party
+  Description: |-
+    This turn, for each blue card played, draw {Value1} card{Value1:plural one='' other='s'}; for each green card played, gain{Mana}.
+    The total number of draws and mana gain cannot exceed {Value2}.
+    After playing this card, |Exile| all {SelfName} from the hand, draw pile, and discard pile.
+  FlavorText: "Sweets are here~ sweets are here~"
+
+CirnoRCharacterDreamCirno:
+  Name: Magical Genius - Cirno
+  Description: |-
+    |Choose|: Add {Value1} |Magic Grenade| to the discard pile; or add {Value1} |Muggle Wand| to the discard pile.
+  ExtraDescription1: Add {Value1} |Magic Grenade| to the discard pile.
+  ExtraDescription2: Add {Value1} |Muggle Wand| to the discard pile.
+  UpgradedDescription: Add {Value1} |Magic Grenade| and {Value1} |Muggle Wand| to the discard pile.
+  FlavorText: "Ta-da~! It’s time for this genius’s magic show!"
+
+CirnoRCharacterMagicGrenade:
+  Name: Magic Grenade
+  Description: |-
+    Deal {Damage} damage to each enemy.
+    Apply |Magic Aftermath|.
+  FlavorText: "Fire The Hole!"
+
+CirnoRCharacterMuggleWand:
+  Name: Muggle Wand
+  Description: |-
+    Deal {Damage} damage to an enemy {Value1} time{Value1:plural one='' other='s'}.
+    Apply |Gunshot Wound|.
+  FlavorText: "This thing works way better than a wand."
+
+CirnoRCharacterIceSoul:
+  Name: Ice Soul
+  Description: |-
+    Whenever a blue card is used, gain {Value1} |Block|.
+    Whenever |Frost| is applied to an enemy, gain {Value2} |Barrier|.
+  FlavorText: "That is the lonely snow — the dead rain, the very soul of rain."
+
+CirnoRCharacterSymbioticRoot:
+  Name: Symbiotic Roots
+  Description: |-
+    Whenever {PlayerName} loses HP, if the damage source is an enemy, trigger their |Nature's Demise|.
+  FlavorText: "Every hit I take, I give back."
+
+CirnoRCharacterAFragranceWithinReach:
+  Name: Aroma Within Reach
+  Description: |-
+    Gain {Block} |Block|.
+    For each |Fairy Flower| played this combat, gain an additional {Value2} |Block|.
+  FlavorText: "Sniff sniff — sniff sniff — Dai-chan smells so nice~"
+
+CirnoRCharacterTheCounterattackBegins:
+  Name: Counterattack Begins
+  Description: |-
+    Deal {Damage} damage to all enemies.
+    For each enemy with |Nature's Demise|, deal an additional instance of damage.
+  FlavorText: "Now, I’m getting serious!"
+
+CirnoRCharacterWalkingInTheRain:
+  Name: Walking in the Rain
+  Description: |-
+    Gain {Block} Block.
+    This turn, whenever you play a Green card, gain {Value2} Block.
+  FlavorText: "Walking through the downpour — an umbrella is a boat rowing backwards across the sky."

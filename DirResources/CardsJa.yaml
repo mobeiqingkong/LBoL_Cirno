@@ -1,0 +1,605 @@
+CirnoRCharacterIcicleFall:
+  Name: 氷符『氷瀑』
+  Description: |-
+    ランダムな敵に{Damage}ダメージを{Value1}回与える。
+    |初見|：カードを{Value2}枚引く。
+  ExtraDescription1: |-
+    ランダムな敵に{Damage}ダメージを{Value1}回与える。
+    |d:初見：カードを{Value2}枚引く。|
+  FlavorText: "見上げるな。"
+
+CirnoRCharacterBindIceIntoASword:
+  Name: 冰符「氷束を剣に」
+  Description: |-
+    {Damage}ダメージを与える。
+    |火力|から受ける効果{Value1}倍。
+  FlavorText: "鋭ければ、人を斬っても形は残らない。"
+
+
+CirnoRCharacterHailstorm:
+  Name: 雹符『氷雹暴風』
+  Description: 敵全体に{Damage}ダメージを{Value1}回与える。
+  FlavorText: "天気予報はあたいを予報できない。"
+
+CirnoRCharacterDiamondBlizzard:
+  Name: 雪符『ダイヤモンドストーム』
+  Description: 敵全体に{Damage}ダメージを{Value1}回与える。
+  UpgradedDescription: |-
+    敵全体に{Damage}ダメージを{Value1}回与える。
+    カードを{Value2}枚引く。
+  FlavorText: "あたいのダイヤ、受け止められるか？"
+
+CirnoRCharacterFrostColumns:
+  Name: 霜符『氷襲方陣』
+  Description: |-
+    {Block}の|バリア|と|ブロック|を得る。
+    敵の意图が攻撃の場合、敵全体に{Value2}の|暫失火力|を付与する。
+  FlavorText: "臨・兵・闘・者・皆・陣・列・在・前！"
+
+CirnoRCharacterColdDivinity:
+  Name: 凍符『冷凍之神』
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |霜凍|を{Value1}回付与する。
+  FlavorText: "神、氷あれと宣わく。すなわち氷ありき。"
+
+CirnoRCharacterMinusK:
+  Name: 凍符『マイナスK』
+  Description: |-
+    ライフを{Value1}失う。
+    |寒冰甲|を{Value2}層と|反射|を{Value3}得る。
+  FlavorText: "絶対零度防御！"
+
+CirnoRCharacterColdSprinkler:
+  Name: 氷塊『冷凍散水器』
+  Description: |-
+    敵全体に|霜凍|を付与する。
+    |虚弱|と|易傷|を{Value1}ターン付与する。
+    |暫失火力|を{Value2}付与する。
+  FlavorText: "山から来たよ～蘭の花連れて～小さな庭に植えて～早く咲いてね～ららららら～、散水車でーす～"
+
+CirnoRCharacterSuperIceKick:
+  Name: 冷体『スーパー回転氷キック』
+  Description: |-
+    {Damage}ダメージを与える。
+    カードを{Value1}枚引く。
+  UpgradedDescription: |-
+    {Damage}ダメージを与える。
+    カードを{Value1}枚引く。
+    |霜凍|を{Value2}回かける。。
+  FlavorText: "腰に気をつけろよ～"
+
+CirnoRCharacterSwordFreezer:
+  Name: 氷符『劍式製氷器』
+  Description: |- 
+    |凝霜|を{Value1}層得る。
+  FlavorText: "アイスキャンディー、剣になれ！"
+
+CirnoRCharacterFreezeAtmosphere:
+  Name: 凍符『急凍大気』
+  Description: |-
+    |暫得火力|を{Value1}得る。
+    敵全体に|暫失火力|を{Value2}付与する。
+  FlavorText: "息をするなよ～"
+
+CirnoRCharacterIceTornado:
+  Name: 吹氷『砕氷竜巻』
+  Description: |-
+    全ての敵に{Damage}点のダメージを与える。
+    |放逐|と|虚無|を持つ|氷霜射線|を{Value2}枚手札に加える。
+  FlavorText: "魔理沙の評：「その技、あたいのマスタースパークと同じで、物理素人の宴ね。」"
+
+CirnoRCharacterGreatCrusher:
+  Name: 氷塊『巨氷破碎』
+  Description: |-
+    |放逐|と|虚無|を持つ|氷霜射線|を{Value1}枚手札に加える。
+    手札から最大{Value2}枚のカードを選んで|放逐|する。このようにしてカードを1枚|放逐|するごとに、|放逐|と|虚無|を持つ|氷霜射線|を{Value3}枚手札に加える。
+  FlavorText: "霧の湖住宅管理局よりお知らせ：巨大氷の破片の清掃費用は、潰された側の負担となります。"
+
+CirnoRCharacterPerfectGlacialist:
+  Name: 氷符『完美氷河学者』
+  Description: |- 
+    |凍傷|によるダメージが{Value1}倍になる。
+  FlavorText: "チルノが昨日、論文が載ったと言っていた……掲載先は湖面、インパクトファクターは⑨。"
+
+CirnoRCharacterFrostKing:
+  Name: 氷王『霜凍の王』
+  Description: |-
+    獲得 |氷涙|。
+    |極度霜寒|を{Value2}層得る。
+  FlavorText: "教えてやろう。すべてが終わったとき、お前は我の赦しを乞うことになる。——アーサス"
+
+CirnoRCharacterFrostflow:
+  Name: 氷脈
+  Description: |-
+    |氷脈|を{Value1}層得る。
+  FlavorText: "氷河の脈、尽きぬ霜。"
+
+CirnoRCharacterFrozenHexagram:
+  Name: 氷結六芒星
+  Description: |-
+    このターン中、青いカードを使用するごとに、|暫得火力|を{Value1}と|バリア|を{Value2}得る。
+  UpgradedDescription: |-
+    |暫得火力|を{Value1}と|バリア|を{Value2}得る
+    このターン中、青いカードを使用するごとに、|暫得火力|を{Value1}と|バリア|を{Value2}得る。
+  FlavorText: "理論上、六芒星は何でも封印できる。実際には一匹のカエルを封印した。しかも自分で出てきた。"
+
+CirnoRCharacterFrozenHexagramShield:
+  Name: 氷結六芒星盾
+  Description: |-
+    {PlayerName}のターン終了時、|バリア|を{Value1}と|鎖定|を{Value2}層得る。
+  FlavorText: "チルノが「氷結六芒星」の術に数えきれないほど失敗したあと、散らばった氷晶が霧の湖でひとりでに集まった。六つの棱晶が交わる角度には、術を使うたびに震える彼女の指が残した霜の花が凍りついている。\n「見てろ！これが天才が『氷結六芒星』を圧縮して作った究極の盾だ！近づく敵はみんな氷像にしてやる——霊夢の陰陽玉だって凍らせて氷球にして転がしてやるぞ～」（得意げに髪を振る）"
+
+CirnoRCharacterIcewindBarrier:
+  Name: 氷風屏障
+  Description: |-
+    手札から最大{Value1}枚のカードを|放逐|し、|放逐|した枚数ごとに、|バリア|、|ブロック|、|反射|を{Block}得る。
+  FlavorText: "風はあたいの味方だ。"
+
+CirnoRCharacterZeroBoundary:
+  Name: 零度結界
+  Description: |-
+    手札を全て捨て、捨てた枚数ごとに、|ブロック|を{Block}得て敵全体に{Damage}ダメージを与える。
+  FlavorText: "霜よ、すべてを浄化せよ！"
+
+CirnoRCharacterFrostEnergyBlessing:
+  Name: 氷気凝結
+  Description: |-
+    |選択|：{Value1}点の|暫得火力|を獲得するか、{Value2}点の|暫得霊力|を獲得するか。
+  ExtraDescription1: |-
+    |暫得火力|を{Value1}得る。
+  ExtraDescription2: |-
+    |暫得霊力|を{Value2}得る。
+  FlavorText: "掌に落ちた霜が、なぜか温かかった。"
+
+CirnoRCharacterFriendMana:
+  Name: 呼朋引伴
+  Description: |-
+    {Mana}を得る。
+    |透支|を{Value2}。
+  UpgradedDescription: |-
+    {Mana}を得る。
+    カードを{Value1}枚引く。
+    |透支|を{Value2}。
+  FlavorText: "正義の集団リンチだ！"
+
+CirnoRCharacterGraze:
+  Name: 霧化身躯
+  Description: |-
+    ライフを{Value1}失う。
+    |閃避|を{Value2}層得る。
+  FlavorText: "身体を霧に変えれば、理論上はあらゆる攻撃を避けられる。"
+
+CirnoRCharacterBravePressure:
+  Name: 勇者の威圧
+  Description: |-
+    |虚弱|と|易傷|を{Value1}ターン付与する。
+    |暫失火力|を{Value2}と|鎖定|を{Value2}層付与する。
+  FlavorText: "チルノは霧の湖の中央に立ち、腰に手を当て、鋭い眼差し——そして叫んだ：「勇者ここにあり！」カエルたちは次々と逃げ出した。効果は抜群だ。"
+
+CirnoRCharacterExtraTurn:
+  Name: 霧の湖の時停悪戯
+  Description: |-
+    {PlayerName}のターンを終了し、追加ターンを得る。|時間制限|{Mana}。
+  FlavorText: "咲夜は時を止める。あたいは時を凍らせる！"
+
+CirnoRCharacterDiscover:
+  Name: 宝箱発見
+  Description: |-
+    |氷魄|、|凍符『完美凍結』|、|氷符『究極风暴』|と{Value1}枚の|レア|カードから{Value2}枚を選び、手札に加える。これらのカードは|放逐|と|虚無|を持つ。|Xコスト|でないカードは|一時的|に{Mana}となる。
+  FlavorText: "三択、一番輝いてるのにする。"
+
+CirnoRCharacterPerfectFreeze:
+  Name: 凍符『完美凍結』
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |霜凍|を付与する。
+    |霜域|と|霜蝕|を1層得る。
+  FlavorText: "チルノの看板技、カエルを凍らせる専用。カエル：「ケロ？」チルノ：「この前のは試し凍らせ、今回はパーフェクト版だ。」"
+
+CirnoRCharacterUltimateBlizzard:
+  Name: 氷符『究極风暴』
+  Description: |-
+    |<sprite="ManaSprite" name="U">ごとに|：|バリア|を{Shield}層得る。
+    |{Mana}ごとに|：敵全体に{Damage}ダメージを与え、|霜凍|を付与する。
+  FlavorText: "あるだけ全部やる。手加減はしない。"
+
+CirnoRCharacterOmnislash:
+  Name: 幻符『超⑨武神霸斬』
+  Description: |-
+    このターン中、攻撃カードを使用するごとに、{SelfName}のコストが{Mana}減少する。
+    |閃避|を{Value1}層得る。
+    敵全体に{Damage}ダメージを{Value2}回与える。
+    ダメージを与えるごとに、|暫得火力|を{Value3}得る。
+    {Value4}回ダメージを与えるごとに、|火力|を1得る。
+  FlavorText: "次は八刀一閃で決めてやる。"
+
+CirnoRCharacterCoolSunflower:
+  Name: 氷符『涼しい向日葵』
+  Description: |-
+    |妖精之花|を{Value1}枚手札に加える。
+  UpgradedDescription: |-
+    |妖精之花|を{Value1}枚手札に加える。
+    |妖精之花|を{Value1}枚|暫塑|で{Mana}にして山札に加える。
+    カードを{Value2}枚引く。
+  FlavorText: "ヒマワリは太陽を向く。あたいが植えたのは、あたいを向く。"
+
+CirnoRCharacterHeal:
+  Name: 妖精の福音
+  Description: |-
+    ライフを{Value1}回復する。
+    敵全体のライフを{Value2}回復する。
+  FlavorText: "福音は皆のものだ。"
+
+CirnoRCharacterSpringAndTheFairy:
+  Name: 春と妖精
+  Description: |-
+    {PlayerName}のターン終了時、|バリア|を{Value1}とライフを{Value1}回復する。
+  FlavorText: "春が来た～万物が芽吹く～"
+
+CirnoRCharacterTwinFairies:
+  Name: 双生妖精
+  Description: |-
+    {Mana}を得る。
+    次のターン開始時に{Mana}を得る。
+  FlavorText: "あたいの姫、どこにいるんだ……"
+
+CirnoRCharacterTruthOfNature:
+  Name: 自然の理
+  Description: |-
+    敵1体ごとに{Mana}を得る。
+    |春と妖精|を1枚手札に加える。
+  FlavorText: "自然は理屈じゃない。あたいもだ。"
+
+CirnoRCharacterDeathOfNature:
+  Name: 自然消亡
+  Description: 敵全体に|自然消亡|を{Value1}層付与する。
+  FlavorText: "万物に終わりの日は訪れる。"
+
+CirnoRCharacterAlert:
+  Name: 警戒
+  Description: |-
+    |ブロック|を{Block}と|反射|を{Value2}得る。
+    敵の意图が攻撃の場合、追加で|バリア|を{Shield}得る。
+  FlavorText: "来るな、いち、に、さん、って数えるぞ！"
+
+CirnoRCharacterCoaching:
+  Name: 補習
+  Description: |-
+    カードを{Value1}枚引く。
+    |透支|を{Value2}。
+  UpgradedDescription: |-
+    カードを{Value1}枚引く。
+  FlavorText: "先に写させてもらう。明日返す。"
+
+CirnoRCharacterTakeANap:
+  Name: 仮眠
+  Description: カードを{Value1}枚引き、その中の緑色のカードを手札に加える。
+  FlavorText: "あわてない、あわてない、ひとやすみ、ひとやすみ。"
+
+CirnoRCharacterCirnoDoNotGetSick:
+  Name: バカは風邪を引かない！
+  Description: |-
+    {PlayerName}の全てのデバフを除去する。
+  FlavorText: "バカは風邪ひかない！あたいが言った。"
+
+CirnoRCharacterElfFlowerField:
+  Name: 妖精の花畑
+  Description: |-
+    {PlayerName}のターン開始時、{Mana}を得る。
+    {PlayerName}のターン開始時、|妖精之花|を{Value1}枚手札に加える。
+  FlavorText: "花がいっぱい！こっそり何本か摘んじゃお、誰も見てないよね？えへへ。"
+
+CirnoRCharacterTheGarland:
+  Name: 祝福花輪
+  Description: 緑色のカードを使用するごとに、|暫得火力|を{Value2}得る。
+  FlavorText: "今日のあたいが一番きれいだ。"
+
+CirnoRCharacterNaturalize:
+  Name: 自然平衡
+  Description: |-
+    手札から最大{Value1}枚のカードを|放逐|し、|放逐|した枚数ごとに、カードを{Value2}枚引き{Mana}を得る。
+  FlavorText: "あたいも座禅を覚えた。"
+
+CirnoRCharacterThornyJungle:
+  Name: 荆棘丛林
+  Description: |-
+    |ブロック|を{Block}と|自然庇護|を{Value2}層得る。
+  FlavorText: "この道は通れない！"
+
+CirnoRCharacterNaturalField:
+  Name: 自然領域
+  Description: |-
+    {PlayerName}のターン終了時、敵全体に|自然消亡|を{Value1}層{Value2}ターン付与する。
+  FlavorText: "空気にカビのにおいがする。"
+
+CirnoRCharacterEntangledRoots:
+  Name: 根須纏繞
+  Description: |-
+    対象を{Value1}ターン行動不能にする。
+    カードを使用後、手札、山札、捨て札の全ての{SelfName}を|放逐|する。
+  FlavorText: "動けないだろ。"
+
+CirnoRCharacterTheGiftOfFogLake:
+  Name: 霧の湖の贈り物
+  Description: |-
+    カードを{Value1}枚引き、{Mana}を得る。
+    |透支|を{Value2}。
+  UpgradedDescription: |-
+    カードを{Value1}枚引き、{Mana}を得る。
+  FlavorText: "妖精の贈り物って、こういうものだ。"
+
+CirnoRCharacterFairyFeather:
+  Name: 妖精の羽
+  Description: |-
+    |ブロック|を{Block}得る。
+    このターン中、緑色のカードを使用するごとに、ランダムな敵に|自然消亡|を{Value2}層付与する。
+  FlavorText: "羽は雪より軽い。"
+
+CirnoRCharacterMakeASnowman:
+  Name: 雪だるまを作る
+  Description: |-
+    |バリア|を{Shield}得る。
+    |閃避|を{Value2}層得る。
+  FlavorText: "キノコは魔理沙から借りた。"
+
+CirnoRCharacterFullyArmed:
+  Name: 全面武装
+  Description: |-
+    |ブロック|を{Block}得る。
+    |自然消亡|を持つ敵1体ごとに、追加で|寒冰甲|を{Value2}層得る。
+  FlavorText: "腐ったものを力に変える。"
+
+CirnoRCharacterFairyFlower:
+  Name: 妖精之花
+  Description: |-
+    {Damage}ダメージを与える。
+    |凍傷|を持つ対象へのダメージが{Value1}増加する。
+    |自然消亡|を持つ対象へのダメージが、層ごとに{Value2}増加する。
+    |盛夏之花|または|妖精之花|を使用するごとに、ダメージが{Value3}増加する。
+    |自然消亡|を付与する。
+  FlavorText: "姫が祝福した花、あたいがちゃんと使ってみせる。"
+
+CirnoRCharacterForceOfNature:
+  Name: 自然の声
+  Description: |-
+    {PlayerName}のターン開始時、{Mana}を得る。
+    カードを{Value1}枚引く。
+  FlavorText: "自然の声は、あたいの力だ。"
+
+CirnoRCharacterIceAndFlowers:
+  Name: 氷と花の円舞曲
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |霜凍|を{Value1}回付与する。
+    |妖精之花|を{Value2}枚手札に加える。それらは|暫塑|で{Mana}となり、|放逐|、|虚無|、|精密|を持つ。
+  FlavorText: "「いち、に、さん——回れ！」……二歩目で花を踏んだ。"
+
+CirnoRCharacterCoolAfternoon:
+  Name: 清涼午後
+  Description: |-
+    |選択|：{Mana}を得る；または|バリア|を{Shield}層得る。
+  ExtraDescription1: |-
+    {Mana}を得る。
+  ExtraDescription2: |-
+    |バリア|を{Shield}層得る。
+  FlavorText: "午後三時、湖の上には誰もいない。あたいは寝転んで、夕方まで眠る。"
+
+CirnoRCharacterGuardianOfDaiyousei:
+  Name: 大妖精の守護
+  Description: |-
+    |バリア|を{Shield}得る。
+    {PlayerName}のターン終了時、|自然庇護|を{Value2}層得る。
+  FlavorText: "姫があたいの力を守ってくれる。"
+
+CirnoRCharacterFairyWind:
+  Name: 妖精之风
+  Description: |-
+    全ての敵から全てのバフ効果を除去する。
+    {PlayerName}のターンを終了する。
+  UpgradedDescription: |-
+    全ての敵から全てのバフ効果を除去する。
+    {PlayerName}のターンを終了する。
+  FlavorText: "これが魔法だ！"
+
+CirnoRCharacterIcicleMachineGun:
+  Name: 氷符『氷柱機銃』
+  Description: ランダムな敵に{Damage}ダメージを{Value1}回与える。
+  FlavorText: "ダダダダダ——！……今のは何発だ？もういい、数えられない。"
+
+CirnoRCharacterFairySpin:
+  Name: 氷符『妖精回転』
+  Description: |-
+    カードを{Value1}枚引く。
+    次のターン開始時にカードを{Value2}枚引く。
+  FlavorText: "くるくる回れ回れ、命の火を咲かせて"
+
+CirnoRCharacterFuryFairy:
+  Name: 妖精の怒り
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |自然消亡|を{Value1}層付与する。
+  UpgradedDescription: |-
+    敵全体に{Damage}ダメージを与える。
+    |自然消亡|を{Value1}層付与する。
+  FlavorText: "姫が本気で怒った！逃げろ～"
+
+CirnoRCharacterFriendDraw:
+  Name: 妖精集会
+  Description: |-
+    {Mana}を得る。
+    手札を{Value1}枚まで補充する。
+    |透支|を{Value2}。
+  UpgradedDescription: |-
+    {Mana}を得る。
+    手札を{Value1}枚まで補充する。
+    |透支|を{Value2}。
+  FlavorText: "あたいについて来い！いちに、いちに～"
+
+CirnoRCharacterNaturalOutbreak:
+  Name: 消亡腐化
+  Description: |-
+    全ての敵に{Value1}層の|自然消亡|を付与する。
+    全ての敵の|自然消亡|の層数を2倍にする。
+  FlavorText: "近づくな、ちょっと臭い。"
+
+CirnoRCharacterSummerCoolness:
+  Name: 夏日清涼
+  Description: ライフを{Value1}回復する。
+  UpgradedDescription: ライフを{Value1}回復する。
+  FlavorText: "夏になると、湖中の妖精があたいを思い出す。"
+
+CirnoRCharacterInstantFreezeRay:
+  Name: 冷符『瞬間冷凍光線』
+  Description: |-
+    {Damage}ダメージを与える。
+    |霜凍|を付与する。
+    |凍傷|1点ごとに、追加で{Value1}ダメージを与える。
+  FlavorText: "魔理沙、撃ち合おうぜ！あたいが最強だ！"
+
+CirnoRCharacterNaturalPlague:
+  Name: 自然瘟疫
+  Description: |-
+    指定した敵に|自然消亡|を{Value1}層付与する。
+    その他の敵に|自然消亡|を{Value2}層付与する。
+  UpgradedDescription: |-
+    指定した敵に|自然消亡|を{Value1}層付与する。
+    その他の敵に|自然消亡|を{Value2}層付与する。
+    敵全体の|自然消亡|を1回発動する。
+  FlavorText: "マスクをしろ、うつるぞ！"
+
+CirnoRCharacterWindGodBoost:
+  Name: 風神助推
+  Description: |-
+    |風神助推|を{Value1}層得る。
+  FlavorText: "文からの祝福"
+
+CirnoRCharacterWither:
+  Name: 凋零
+  Description: |-
+    |<sprite="ManaSprite" name="G">ごとに|：敵全体に|自然消亡|を{Value1}層付与する。
+    |{Mana}ごとに|：敵全体の|自然消亡|を1回発動する。
+  UpgradedDescription: |-
+    敵全体に|自然消亡|を{Value1}層付与する。
+    |<sprite="ManaSprite" name="G">ごとに|：敵全体に|自然消亡|を{Value1}層付与する。
+    |{Mana}ごとに|：敵全体の|自然消亡|を1回発動する。
+  FlavorText: "花はいつか散る。"
+
+CirnoRCharacterTheHiddenBiosphere:
+  Name: 隠された生物圏
+  Description: |-
+    {PlayerName}のターン終了時、敵全体の|自然消亡|を発動する。
+  FlavorText: "湖底はずっと音がしている。水の音だと思う人もいる。あたいは違うと知っている。"
+
+CirnoRCharacterFireworksFestival:
+  Name: 花火大会
+  Description: |-
+   {Value1}枚のランダムな防御カードから1枚を選択し、手札に加える。それは|暫塑|で{Mana}となる。
+  FlavorText: "じゃじゃーん！花火大会のはじまりだ！"
+
+CirnoRCharacterIceTears:
+  Name: 氷泪
+  Description: |-
+    |氷泪|を1層得る。
+  FlavorText: "「雨だ」「いや…」「雨だってば！」"
+
+CirnoRCharacterFreezeBloodIntoIce:
+  Name: 凝血成冰
+  Description: |-
+    {PlayerName}のターン開始時、ライフを{Value1}失う, |火力|を{Value1}得る。
+  UpgradedDescription: |-
+    |火力|を{Value1}得る。
+    {PlayerName}のターン開始時、ライフを{Value1}失う, |火力|を{Value1}得る。
+  FlavorText: "これがあたいの最後の波紋だ。"
+
+CirnoRCharacterEncounterRain:
+  Name: 凍雨
+  Description: |- 
+    |氷脈|を{Value1}層得る。
+    |凍雨|を{Value2}層得る。
+  FlavorText: "出かけるときは傘を忘れずにね～"
+
+CirnoRCharacterIceBead:
+  Name: 氷霜射線
+  Description: |-
+    {Damage}ダメージを与える。
+    |霜凍|を付与する。
+    このターン中、青いカードを使用するごとに、{SelfName}のダメージが{Value2}増加する。
+    敵が|自然消亡|を持つ場合、追加で{Value3}ダメージを与える。
+  FlavorText: "ビー————ビー————ビー————あれ？エネルギー切れ？"
+
+CirnoRCharacterBloodShield:
+  Name: 化血成盾
+  Description: |-
+    |選択|：ライフを{Value1}失い、|バリア|を{Value2}得る；またはライフを{Value3}失い、|バリア|を{Value4}得る。
+  ExtraDescription1: ライフを{Value1}失い、|バリア|を{Value2}得る。
+  ExtraDescription2: ライフを{Value3}失い、|バリア|を{Value4}得る。
+  FlavorText: "あたいは血だって氷にできるんだぞ！普通の妖精にはできないからな！……あれ？ちょっと痛い。"
+
+CirnoRCharacterFairyTeaParty:
+  Name: 妖精の茶会
+  Description: |-
+    このターン中、青いカードを使用するごとに、カードを{Value1}枚引く；緑色のカードを使用するごとに、{Mana}を得る。
+    引く枚数と得るマナは合計{Value2}回まで。
+    カードを使用後、手札、山札、捨て札の全ての{SelfName}を|放逐|する。
+  FlavorText: "お菓子だよ～お菓子だよ～"
+
+CirnoRCharacterDreamCirno:
+  Name: 魔法天才-チルノ
+  Description: |-
+    |選択|：|魔法手雷|を{Value1}枚捨て札に加える；または|麻瓜魔杖|を{Value1}枚捨て札に加える。
+  ExtraDescription1: |-
+    |魔法手雷|を{Value1}枚捨て札に加える。
+  ExtraDescription2: |-
+    |麻瓜魔杖|を{Value1}枚捨て札に加える。
+  UpgradedDescription: |-
+    |魔法手雷|と|麻瓜魔杖|をそれぞれ{Value1}枚捨て札に加える。
+  FlavorText: "じゃじゃーん！天才のマジックショーの時間だ！"
+
+CirnoRCharacterMagicGrenade:
+  Name: 魔法手雷
+  Description: |-
+    敵全体に{Damage}ダメージを与える。
+    |魔法余波|を付与する。
+  FlavorText: "Fire The Hole!"
+
+CirnoRCharacterMuggleWand:
+  Name: 麻瓜魔杖
+  Description: |-
+    敵に{Damage}ダメージを{Value1}回与える。
+    |銃傷|を付与する。
+  FlavorText: "こいつは杖よりずっと役に立つ。"
+
+CirnoRCharacterIceSoul:
+  Name: 氷魄
+  Description: |-
+    青いカードを使用するごとに、|ブロック|を{Value1}得る。
+    敵に|霜凍|を付与するごとに、|バリア|を{Value2}得る。
+  FlavorText: "それは孤独な雪、死んだ雨、雨の精魂。"
+
+CirnoRCharacterSymbioticRoot:
+  Name: 共生根絡
+  Description: |-
+    {PlayerName}がライフを失うたび、ダメージ源が敵の場合、敵の|自然消亡|を発動する。
+  FlavorText: "殴られた分は返してやる。"
+
+CirnoRCharacterAFragranceWithinReach:
+  Name: 咫尺の香り
+  Description: |-
+    {Block}点の|ブロック|を得る。
+    この戦闘中、|妖精之花|を1枚使用するごとに、{Value2}点の|ブロック|を追加で得る。
+  FlavorText: "すんすん——すんすん——大ちゃん、いい匂い～"
+
+CirnoRCharacterTheCounterattackBegins:
+  Name: 反撃開始
+  Description: |-
+    全ての敵に{Damage}点のダメージを与える。
+    |自然消亡|を持つ敵1体につき、追加でダメージを与える。
+  FlavorText: "さあ、あたいは本気だ！"
+
+CirnoRCharacterWalkingInTheRain:
+  Name: 雨の中の散歩
+  Description: |-
+    {Block} 点の|ブロック|を得る。
+    このターン中、緑のカードを1枚使用するごとに、{Value2} 点の|ブロック|を得る。
+  FlavorText: "豪雨の中を歩く。傘は、空を逆さまに漕ぐ舟。"

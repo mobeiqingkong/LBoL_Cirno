@@ -1,0 +1,613 @@
+CirnoRCharacterIcicleFall:
+  Name: 빙부『아이시클 폴』
+  Description: |-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+    |선보임|: 카드를 {Value2}장 뽑습니다.
+  ExtraDescription1: |-
+    무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+    |d:선보임: 카드를 {Value2}장 뽑습니다.|
+  FlavorText: "올려다보지 마."
+
+CirnoRCharacterBindIceIntoASword:
+  Name: 빙부 『얼음을 검으로』
+  Description: |-
+    피해를 {Damage} 줍니다.
+    {SelfName}에 한해 |화력|의 효과가 {Value1} 배로 적용됩니다.
+  FlavorText: "날카롭기만 하면, 사람을 베어도 흔적은 남지 않아."
+
+CirnoRCharacterHailstorm:
+  Name: 박부『헤일 스톰』
+  Description: 모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+  FlavorText: "일기예보는 나를 못 맞혀."
+
+CirnoRCharacterDiamondBlizzard:
+  Name: 설부『다이아몬드 블리자드』
+  Description: 모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+  UpgradedDescription: |-
+    모든 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+    카드를 {Value2}장 뽑습니다.
+  FlavorText: "내 다이아, 받아볼래?"
+
+CirnoRCharacterFrostColumns:
+  Name: 상부『프로스트 칼럼스』
+  Description: |-
+    |방어|와 |보호막|을 {Block} 얻습니다.
+    적 중 공격 의도가 있는 대상이 있다면 모든 적에게 |일시 화력 저하|를 {Value2} 줍니다.
+  FlavorText: "임·병·투·자·개·진·렬·재·전!"
+
+CirnoRCharacterColdDivinity:
+  Name: 동부『콜드 디비니티』
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |혹한|을 {Value1}회 줍니다.
+  FlavorText: "신이 빙(氷)이 있으라 하시매, 빙이 있으니라."
+
+CirnoRCharacterMinusK:
+  Name: 동부『마이너스 K』
+  Description: |-
+    체력을 {Value1} 잃습니다.
+    |얼음 갑옷|을 {Value2} 얻습니다.
+    |반사|를 {Value3} 얻습니다.
+  FlavorText: "절대영도 방어!"
+
+CirnoRCharacterColdSprinkler:
+  Name: 빙괴『콜드 스프링클러』
+  Description: |-
+    모든 적에게 |혹한|을 줍니다.
+    |허약|과 |취약|을 {Value1}턴 줍니다.
+    |일시 화력 저하|를 {Value2} 줍니다.
+  FlavorText: "산에서 왔어요~ 난초꽃 데리고~ 작은 정원에 심고~ 일찍 피어나길~ 라라라라라~, 살수차 나갑니다~"
+
+CirnoRCharacterSuperIceKick:
+  Name: 냉체『슈퍼 아이스 킥』
+  Description: |-
+    피해를 {Damage} 줍니다.
+    카드를 {Value1}장 뽑습니다.
+  UpgradedDescription: |-
+    피해를 {Damage} 줍니다.
+    카드를 {Value1}장 뽑습니다.
+    |혹한|을 {Value2} 줍니다.
+  FlavorText: "허리 조심해~"
+
+CirnoRCharacterSwordFreezer:
+  Name: 빙부『소드 프리저』
+  Description: |-
+    |혹한 응결|을 {Value1} 얻습니다.
+  FlavorText: "아이스바, 검으로 변해라!"
+
+CirnoRCharacterFreezeAtmosphere:
+  Name: 동부『프리즈 애트머스피어』
+  Description: |-
+    |일시 화력|을 {Value1} 얻습니다.
+    모든 적에게 |일시 화력 저하|를 {Value2} 줍니다.
+  FlavorText: "숨 쉬지 마~"
+
+CirnoRCharacterIceTornado:
+  Name: 취빙『아이스 토네이도』
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |소멸| 및 |휘발성|을 가진 |냉동광선|을 {Value2}장 손에 추가합니다.
+  FlavorText: "마리사의 평: “그 기술, 내 마스터 스파크랑 똑같이 물리 문외한의 잔치네.”"
+
+CirnoRCharacterGreatCrusher:
+  Name: 빙괴『그레이트 크래셔』
+  Description: |-
+    |소멸| 및 |휘발성|을 가진 |냉동광선|을 {Value1}장 손에 추가합니다.
+    카드를 최대 {Value2}장 |소멸|시킵니다.
+    이 방법으로 |소멸|한 카드 1장마다 |냉동광선|을 {Value3}장 손에 추가합니다.
+  FlavorText: "안개의 호수 주택관리국 알림: 거대 얼음 파편 청소비는 맞은 쪽이 부담합니다."
+
+CirnoRCharacterPerfectGlacialist:
+  Name: 빙부『퍼펙트 글레이셜리스트』
+  Description: |-
+    |동상| 피해가 {Value1}배 증가합니다.
+  FlavorText: "치르노가 어제 논문을 냈다고 했다…… 게재지는 호수 수면, 임팩트 팩터는 ⑨."
+
+CirnoRCharacterFrostKing:
+  Name: 빙왕『프로스트 킹』
+  Description: |-
+    |얼음의 눈물| 획득.
+    |극한의 혹한|을 {Value2} 얻습니다.
+  FlavorText: "내가 직접 알려주지. 모든 것이 끝났을 때, 너는 내 용서를 구걸하게 될 것이다. — 아서스"
+
+CirnoRCharacterFrostflow:
+  Name: 혹한의 흐름
+  Description: |-
+    |혹한의 흐름|을 {Value1} 얻습니다.
+  FlavorText: "빙하의 맥, 끝없는 서리."
+
+CirnoRCharacterFrozenHexagram:
+  Name: 동결 육망성
+  Description: |-
+    이번 턴 동안 청색 카드를 사용할 때마다 |일시 화력|을 {Value1} 얻고 |보호막|을 {Value2} 얻습니다.
+  UpgradedDescription: |-
+    |일시 화력|을 {Value1} 얻고 |보호막|을 {Value2} 얻습니다.
+    이번 턴 동안 청색 카드를 사용할 때마다 |일시 화력|을 {Value1} 얻고 |보호막|을 {Value2} 얻습니다.
+  FlavorText: "이론상 육망성은 무엇이든 봉인할 수 있다. 실제로는 개구리 한 마리를 봉인했고, 그 개구리는 스스로 튀어나왔다."
+
+CirnoRCharacterFrozenHexagramShield:
+  Name: 동결 육망성 방패
+  Description: |-
+    {PlayerName}의 턴 종료 시 |보호막|을 {Value1} 얻고 |록온|을 {Value2} 얻습니다.
+  FlavorText: "치르노가 「동결 육망성」 주문에 수없이 실패한 끝에, 흩어진 얼음 결정이 안개의 호수에서 스스로 모여들었다. 여섯 결정이 만나는 각도에는, 주문을 쓸 때마다 떨리는 그녀의 손가락이 남긴 서리꽃이 얼어붙어 있다.\n“잘 봐! 이게 천재가 ‘동결 육망성’을 압축해서 만든 궁극의 방패다! 다가오는 적은 전부 얼음 조각으로 만들어줄게——레이무의 음양옥도 얼려서 얼음 공으로 굴려버릴 거야~” (뿌듯하게 머리를 휙)"
+
+CirnoRCharacterIcewindBarrier:
+  Name: 아이스윈드 배리어
+  Description: |-
+    손에서 카드를 최대 {Value1}장 |소멸|시킵니다.
+    이 방법으로 |소멸|한 카드 1장마다 |보호막|을 {Value2} 얻고, 방어를 {Value2} 얻고, |반사|를 {Value2} 얻습니다.
+  FlavorText: "바람이 내 편이야."
+
+CirnoRCharacterZeroBoundary:
+  Name: 영도의 경계
+  Description: |-
+    손의 모든 카드를 버립니다.
+    이 방법으로 버린 카드 1장마다 방어를 {Value1} 얻고 모든 적에게 피해를 {Damage} 줍니다.
+  FlavorText: "서리여, 모든 것을 정화하라!"
+
+CirnoRCharacterFrostEnergyBlessing:
+  Name: 혹한 에너지 응결
+  Description: |-
+    |선택|: {Value1} 포인트의 |일시 화력| 획득 또는 {Value2} 포인트의 |일시 영력| 획득.
+  ExtraDescription1: |-
+    |일시 화력|을 {Value1} 얻습니다.
+  ExtraDescription2: |-
+    |일시 영력|을 {Value1} 얻습니다.
+  FlavorText: "손바닥에 내린 서리가, 어쩐지 따뜻했다."
+
+CirnoRCharacterFriendMana:
+  Name: 친구모으기
+  Description: |-
+    {Mana}를 얻습니다.
+    |가불| {Value2}.
+  UpgradedDescription: |-
+    {Mana}를 얻습니다.
+    카드를 {Value1}장 뽑습니다.
+    |가불| {Value2}.
+  FlavorText: "정의의 집단 구타다!"
+
+CirnoRCharacterGraze:
+  Name: 안개 몸
+  Description: |-
+    체력을 {Value1} 잃습니다.
+    |그레이즈|를 {Value2} 얻습니다.
+  FlavorText: "몸을 안개로 바꾸면, 이론상 모든 공격을 피할 수 있어."
+
+CirnoRCharacterBravePressure:
+  Name: 용자의 압박
+  Description: |-
+    모든 적에게 |허약|과 |취약|을 {Value1}턴 줍니다.
+    모든 적에게 |일시 화력 저하|와 |록온|을 {Value2} 줍니다.
+  FlavorText: "치르노는 안개의 호수 한가운데 서서, 양손을 허리에 얹고, 날카로운 눈빛——그리고 외쳤다: “용사가 왔다!” 개구리들이 우르르 도망갔다. 효과는 굉장했다."
+
+CirnoRCharacterExtraTurn:
+  Name: 안개의 호수의 시간정지 장난
+  Description: |-
+    {PlayerName}의 턴을 종료합니다. 이후 추가 턴을 진행합니다. |시간 제한|{Mana}.
+  FlavorText: "사쿠야는 시간을 멈춰. 나는 시간을 얼려!"
+
+CirnoRCharacterDiscover:
+  Name: 보물을 발견하다
+  Description: |-
+    |얼음의 영혼|, |동부 '퍼펙트 프리즈'|, |빙부 '얼티밋 블리자드'| 및 |희귀| 카드 중에서 {Value2}장을 선택하여 손에 추가합니다.
+    이 카드들은 |소멸|과 |휘발성|을 가집니다.
+    |X 비용|이 아닌 카드는 |일시적으로| 비용이 {Mana}가 됩니다.
+  FlavorText: "셋 중 하나, 제일 반짝이는 걸로."
+
+CirnoRCharacterPerfectFreeze:
+  Name: 동부『퍼펙트 프리즈』
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |혹한|을 줍니다.
+    |혹한의 영역|을 얻고 |혹한 침식|을 1 얻습니다.
+  FlavorText: "치르노의 간판 기술, 개구리 얼리기 전용. 개구리: “개굴?” 치르노: “지난번 건 시험용, 이번엔 완벽판이야.”"
+
+CirnoRCharacterUltimateBlizzard:
+  Name: 빙부『얼티밋 블리자드』
+  Description: |-
+    |사용한 <sprite="ManaSprite" name="U">마다|: |보호막|을 {Shield} 얻습니다.
+    |사용한 {Mana}마다|: 모든 적에게 피해를 {Damage} 주고 |혹한|을 줍니다.
+  FlavorText: "있는 대로 다 쓴다. 남겨두지 않아."
+
+CirnoRCharacterOmnislash:
+  Name: 환부『초⑨무신패참』
+  Description: |-
+    이번 턴 동안 공격 카드를 1장 사용할 때마다 {SelfName}의 비용이 {Mana} 감소합니다.
+    |그레이즈|를 {Value1} 얻습니다.
+    모든 적에게 피해를 {Damage}씩 {Value2}번 줍니다.
+    피해를 줄 때마다 |일시 화력|을 {Value3} 얻습니다.
+    피해를 {Value4}회 줄 때마다  |화력|을 1 얻습니다.
+  FlavorText: "다음엔 팔도일섬으로 보여줄게."
+
+CirnoRCharacterCoolSunflower:
+  Name: 빙부『쿨 선플라워』
+  Description: |-
+    |요정의 꽃|을 {Value1}장 손에 추가합니다.
+  UpgradedDescription: |-
+    |요정의 꽃|을 {Value1}장 손에 추가합니다.
+    비용이 일시적으로 {Mana}인 |요정의 꽃|을 {Value1}장 뽑을 카드 더미에 추가합니다.
+    카드를 {Value2}장 뽑습니다.
+  FlavorText: "해바라기는 태양을 향해. 내가 심은 건 나를 향해."
+
+CirnoRCharacterHeal:
+  Name: 요정의 복음
+  Description: |-
+    체력을 {Value1} 회복합니다.
+    모든 적이 체력을 {Value2} 회복합니다.
+  FlavorText: "복음은 모두를 위한 것."
+
+CirnoRCharacterSpringAndTheFairy:
+  Name: 봄과 요정
+  Description: |-
+    {PlayerName}의 턴 종료 시 |보호막|을 {Value1} 얻고 체력을 {Value1} 회복합니다.
+  FlavorText: "봄이 왔어~ 만물이 자라나~"
+
+CirnoRCharacterTwinFairies:
+  Name: 쌍둥이 요정
+  Description: |-
+    {Mana}를 얻습니다.
+    다음 턴 시작 시 {Mana}를 얻습니다.
+  FlavorText: "내 공주님, 어디 계세요……"
+
+CirnoRCharacterTruthOfNature:
+  Name: 자연의 진실
+  Description: |-
+    적 1명마다 {Mana}를 얻습니다.
+    |봄과 요정|을 손에 추가합니다.
+  FlavorText: "자연은 이치를 따지지 않아. 나도 마찬가지."
+
+CirnoRCharacterDeathOfNature:
+  Name: 자연의 죽음
+  Description: 모든 적에게 |자연의 종말|을 {Value1} 줍니다.
+  FlavorText: "만물은 결국 종말의 날을 맞는다."
+
+CirnoRCharacterAlert:
+  Name: 경계
+  Description: |-
+    방어를 {Block} 얻고 |반사|를 {Value2} 얻습니다.
+    적 중 공격 의도가 있는 대상이 있다면 |보호막|을 {Shield} 추가로 얻습니다.
+  FlavorText: "오지 마, 하나, 둘, 셋 센다!"
+
+CirnoRCharacterCoaching:
+  Name: 지도
+  Description: |-
+    카드를 {Value1}장 뽑습니다.
+    |가불| {Value2}.
+  UpgradedDescription: |-
+    카드를 {Value1}장 뽑습니다.
+  FlavorText: "먼저 베낄게. 내일 갚을게."
+
+CirnoRCharacterTakeANap:
+  Name: 낮잠
+  Description: 카드를 {Value1}장 뽑습니다. 이 방법으로 뽑은 녹색 카드만 손에 추가합니다.
+  FlavorText: "서두르지 마, 서두르지 마. 잠깐 쉬자, 잠깐 쉬자."
+
+CirnoRCharacterCirnoDoNotGetSick:
+  Name: 바보는 감기에 안 걸려!
+  Description: |-
+    {PlayerName}의 모든 약화 효과를 제거합니다.
+  FlavorText: "바보는 감기 안 걸려! 내가 그랬어."
+
+CirnoRCharacterElfFlowerField:
+  Name: 요정의 꽃밭
+  Description: |-
+    {PlayerName}의 턴 시작 시 {Mana}를 얻습니다.
+    {PlayerName}의 턴 시작 시 |요정의 꽃|을 {Value1}장 손에 추가합니다.
+  FlavorText: "꽃이 잔뜩이야! 몰래 몇 송이 꺾자, 아무도 안 보지? 히히."
+
+CirnoRCharacterTheGarland:
+  Name: 축복받은 화관
+  Description: 녹색 카드를 사용할 때마다 |일시 화력|을 {Value2} 얻습니다.
+  FlavorText: "오늘 내가 제일 예뻐."
+
+CirnoRCharacterNaturalize:
+  Name: 자연의 균형
+  Description: |-
+    손에서 카드를 최대 {Value1}장 |소멸|시킵니다.
+    이 방법으로 |소멸|한 카드 1장마다 카드를 {Value2}장 뽑고 {Mana}를 얻습니다.
+  FlavorText: "나도 좌선을 배웠어."
+
+CirnoRCharacterThornyJungle:
+  Name: 가시 정글
+  Description: |-
+    방어를 {Block} 얻고 |자연의 수호|를 {Value2} 얻습니다.
+  FlavorText: "이 길은 통행 금지!"
+
+CirnoRCharacterNaturalField:
+  Name: 자연의 들판
+  Description: |-
+    {PlayerName}의 턴 종료 시 모든 적에게 |자연의 종말|을 {Value1} 줍니다. {Value2}턴 지속됩니다.
+  FlavorText: "공기에 곰팡이 냄새가 나."
+
+CirnoRCharacterEntangledRoots:
+  Name: 얽힌 뿌리
+  Description: |-
+    대상은 {Value1}턴 동안 행동할 수 없습니다.
+    사용 후 손, 뽑을 카드 더미, 버린 카드 더미의 모든 {SelfName}를 |소멸|시킵니다.
+  FlavorText: "못 움직이지?"
+
+CirnoRCharacterTheGiftOfFogLake:
+  Name: 안개의 호수의 선물
+  Description: |-
+    카드를 {Value1}장 뽑고 {Mana}를 얻습니다.
+    |가불| {Value2}.
+  UpgradedDescription: |-
+    카드를 {Value1}장 뽑고 {Mana}를 얻습니다.
+    |가불| {Value2}.
+  FlavorText: "요정의 선물은 이런 거야."
+
+CirnoRCharacterFairyFeather:
+  Name: 요정의 깃털
+  Description: |-
+    방어를 {Block} 얻습니다.
+    이번 턴 동안 녹색 카드를 사용할 때마다 무작위 적에게 |자연의 종말|을 {Value2} 줍니다.
+  FlavorText: "깃털은 눈보다 가벼워."
+
+CirnoRCharacterMakeASnowman:
+  Name: 눈사람 만들기
+  Description: |-
+    |보호막|을 {Shield} 얻습니다.
+    |그레이즈|를 {Value2} 얻습니다.
+  FlavorText: "버섯은 마리사한테 빌렸어."
+
+CirnoRCharacterFullyArmed:
+  Name: 완전무장
+  Description: |-
+    방어를 {Block} 얻습니다.
+    |자연의 종말|이 있는 적 1명마다 |얼음 갑옷|을 {Value2} 추가로 얻습니다.
+  FlavorText: "썩은 것을 힘으로 바꾼다."
+
+CirnoRCharacterFairyFlower:
+  Name: 요정의 꽃
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |동상|이 있는 대상에게 공격 시 피해가 {Value1} 증가합니다.
+    대상의 |자연의 종말| 1중첩마다 피해가 {Value2} 증가합니다.
+    이번 전투에서 사용한 |한여름의 개화| 또는 |요정의 꽃| 1장마다 피해가 {Value2} 증가합니다.
+    |자연의 종말|을 줍니다.
+  FlavorText: "공주님이 축복한 꽃, 잘 써먹을게."
+
+CirnoRCharacterForceOfNature:
+  Name: 자연의 목소리
+  Description: |-
+    {PlayerName}의 턴 시작 시 {Mana}를 얻습니다.
+    카드를 {Value1}장 뽑습니다.
+  FlavorText: "자연의 목소리는 내 힘이야."
+
+CirnoRCharacterIceAndFlowers:
+  Name: 얼음과 꽃의 왈츠
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |혹한|을 {Value1}회 줍니다.
+    비용이 일시적으로 {Mana}가 되고 |소멸|, |휘발성|, |명중|을 가진 |요정의 꽃|을 {Value2}장 손에 추가합니다.
+  FlavorText: "“하나, 둘, 셋——돌아!”…… 두 번째 걸음에 꽃을 밟았어."
+
+CirnoRCharacterCoolAfternoon:
+  Name: 서늘한 오후
+  Description: |-
+    |선택|: {Mana}를 얻습니다; 또는 |보호막|을 {Shield} 얻습니다.
+  ExtraDescription1: |-
+    {Mana}를 얻습니다.
+  ExtraDescription2: |-
+    |보호막|을 {Shield} 얻습니다.
+  FlavorText: "오후 세 시, 호수 위엔 아무도 없어. 누워서 저녁까지 잤어."
+
+CirnoRCharacterGuardianOfDaiyousei:
+  Name: 대요정의 수호
+  Description: |-
+    |보호막|을 {Shield} 얻습니다.
+    {PlayerName}의 턴 종료 시 |자연의 수호|를 {Value2} 얻습니다.
+  FlavorText: "공주님이 내 힘을 지켜줘."
+
+CirnoRCharacterFairyWind:
+  Name: 요정의 바람
+  Description: |-
+    모든 적에게 적용된 모든 긍정적 효과를 제거한다.
+    {PlayerName}의 턴을 종료합니다.
+  UpgradedDescription: |-
+    모든 적에게 적용된 모든 긍정적 효과를 제거한다.
+    {PlayerName}의 턴을 종료합니다.
+  FlavorText: "이게 마법이야!"
+
+CirnoRCharacterIcicleMachineGun:
+  Name: 빙부『아이시클 머신건』
+  Description: 무작위 적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+  FlavorText: "다다다다다——! ……방금 몇 발이었지? 됐어, 못 세겠어."
+
+CirnoRCharacterFairySpin:
+  Name: 빙부『페어리 스핀』
+  Description: |-
+    카드를 {Value1}장 뽑습니다.
+    다음 턴 시작 시 카드를 {Value2}장 뽑습니다.
+  FlavorText: "빙글빙글 돌고 돌아, 생명의 불꽃을 피워"
+
+CirnoRCharacterFuryFairy:
+  Name: 요정의 분노
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |자연의 종말|을 {Value1} 줍니다.
+  UpgradedDescription: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |자연의 종말|을 {Value1} 줍니다.
+  FlavorText: "공주님이 진짜 화났어! 도망쳐~"
+
+CirnoRCharacterFriendDraw:
+  Name: 요정 집합
+  Description: |-
+    {Mana}를 얻습니다.
+    손패가 {Value1}장이 될 때까지 카드를 뽑습니다.
+    |가불| {Value2}.
+  UpgradedDescription: |-
+    {Mana}를 얻습니다.
+    손패가 {Value1}장이 될 때까지 카드를 뽑습니다.
+    |가불| {Value2}.
+  FlavorText: "나 따라와! 하나둘, 하나둘~"
+
+CirnoRCharacterNaturalOutbreak:
+  Name: 부패의 확산
+  Description: |-
+    모든 적에게 |자연의 종말|을 {Value1} 줍니다.
+    모든 적의 |자연의 종말| 중첩을 두 배로 만듭니다.
+  FlavorText: "가까이 오지 마, 좀 냄새나."
+
+CirnoRCharacterSummerCoolness:
+  Name: 여름의 서늘함
+  Description: 체력을 {Value1} 회복합니다.
+  UpgradedDescription: 체력을 {Value1} 회복합니다.
+  FlavorText: "여름만 되면, 호수의 요정들이 다 나를 기억해."
+
+CirnoRCharacterInstantFreezeRay:
+  Name: 냉부『순간냉동빔』
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |혹한|을 줍니다.
+    |동상| 1중첩마다 피해를 {Value1} 추가로 줍니다.
+  FlavorText: "마리사, 빔 대결하자! 내가 최강이라구!"
+
+CirnoRCharacterNaturalPlague:
+  Name: 자연의 역병
+  Description: |-
+    선택한 적에게 |자연의 종말|을 {Value1} 줍니다.
+    다른 적에게 |자연의 종말|을 {Value2} 줍니다.
+  UpgradedDescription: |-
+    선택한 적에게 |자연의 종말|을 {Value1} 줍니다.
+    다른 적에게 |자연의 종말|을 {Value2} 줍니다.
+    모든 적의 |자연의 종말|을 1회 발동시킵니다.
+  FlavorText: "마스크 써, 전염돼!"
+
+CirnoRCharacterWindGodBoost:
+  Name: 풍신 가속
+  Description: |-
+    |풍신 가속|을 {Value1} 얻습니다.
+  FlavorText: "아야의 축복"
+
+CirnoRCharacterWither:
+  Name: 쇠락
+  Description: |-
+    |사용한 <sprite="ManaSprite" name="G">마다|: 모든 적에게 |자연의 종말|을 {Value1} 줍니다.
+    |사용한 {Mana}마다|: 모든 적의 |자연의 종말|을 1회 발동시킵니다.
+  UpgradedDescription: |-
+    모든 적에게 |자연의 종말|을 {Value1} 줍니다.
+    |사용한 <sprite="ManaSprite" name="G">마다|: 모든 적에게 |자연의 종말|을 {Value1} 줍니다.
+    |사용한 {Mana}마다|: 모든 적의 |자연의 종말|을 1회 발동시킵니다.
+  FlavorText: "꽃은 결국 시든다."
+
+CirnoRCharacterTheHiddenBiosphere:
+  Name: 숨겨진 생태계
+  Description: |-
+    {PlayerName}의 턴 종료 시 모든 적의 |자연의 종말|을 발동시킵니다.
+  FlavorText: "호수 바닥에서 계속 소리가 나. 누군가는 물소리라고 생각해. 나는 아니라는 걸 알아."
+
+CirnoRCharacterFireworksFestival:
+  Name: 불꽃놀이 축제
+  Description: |-
+    무작위 방어 카드 {Value1}장 중 1장을 선택하여 손에 추가합니다.
+    이 카드는 비용이 일시적으로 {Mana}가 됩니다.
+  FlavorText: "짜잔~! 불꽃축제 시작이야!"
+
+CirnoRCharacterIceTears:
+  Name: 얼음의 눈물
+  Description: |-
+    |얼음의 눈물|을 1 얻습니다.
+  FlavorText: "“비 온다” “안 오는데…” “온다니까!”"
+
+CirnoRCharacterFreezeBloodIntoIce:
+  Name: 피를 얼음으로
+  Description: |-
+    {PlayerName}의 턴 시작 시 체력을 {Value1} 잃고 |화력|을 {Value1} 얻습니다.
+  UpgradedDescription: |-
+    |화력|을 {Value1} 얻습니다.
+    {PlayerName}의 턴 시작 시 체력을 {Value1} 잃고 |화력|을 {Value1} 얻습니다.
+  FlavorText: "이것이 나의 마지막 파문이다."
+
+CirnoRCharacterEncounterRain:
+  Name: 얼어붙은 비
+  Description: |-
+    |혹한의 흐름|을 {Value1} 얻습니다.
+    |얼어붙은 비|를 {Value2} 얻습니다.
+  FlavorText: "나갈 땐 우산 챙겨~"
+
+CirnoRCharacterIceBead:
+  Name: 냉동광선
+  Description: |-
+    피해를 {Damage} 줍니다.
+    |혹한|을 줍니다.
+    이번 턴 동안 청색 카드를 1장 사용할 때마다 {SelfName}의 피해를 {Value2} 증가시킵니다.
+    대상에게 |자연의 종말|이 있다면 피해를 {Value3} 추가로 줍니다.
+  FlavorText: "지이————지이————지이————어? 에너지 부족?"
+
+CirnoRCharacterBloodShield:
+  Name: 피를 방패로
+  Description: |-
+    |선택|: 체력을 {Value1} 잃고 |보호막|을 {Value2} 얻습니다; 또는 체력을 {Value3} 잃고 |보호막|을 {Value4} 얻습니다.
+  ExtraDescription1: 체력을 {Value1} 잃고 |보호막|을 {Value2} 얻습니다.
+  ExtraDescription2: 체력을 {Value3} 잃고 |보호막|을 {Value4} 얻습니다.
+  FlavorText: "나는 피도 얼음으로 만들 수 있어! 평범한 요정은 못 한다구! ……어? 좀 아프네."
+
+CirnoRCharacterFairyTeaParty:
+  Name: 요정 다과회
+  Description: |-
+    이번 턴 동안 청색 카드를 사용할 때마다 카드를 {Value1}장 뽑고, 녹색 카드를 사용할 때마다 {Mana}를 얻습니다.
+    카드 뽑기와 마나 획득의 총합은 최대 {Value2}입니다.
+    사용 후 손, 뽑을 카드 더미, 버린 카드 더미의 모든 {SelfName}를 |소멸|시킵니다.
+  FlavorText: "간식 왔다~ 간식 왔다~"
+
+CirnoRCharacterDreamCirno:
+  Name: 마법의 천재 - 치르노
+  Description: |-
+    |선택|: |마력 수류탄|을 {Value1}장 버린 카드 더미에 추가합니다; 또는 |머글 완드|를 {Value1}장 버린 카드 더미에 추가합니다.
+  ExtraDescription1: |-
+    |마력 수류탄|을 {Value1}장 버린 카드 더미에 추가합니다.
+  ExtraDescription2: |-
+    |머글 완드|을 {Value1}장 버린 카드 더미에 추가합니다.
+  UpgradedDescription: |-
+    |마력 수류탄|와 |머글 완드|를 각각 {Value1}장 버린 카드 더미에 추가합니다.
+  FlavorText: "짜잔~! 천재의 마법 쇼 타임!"
+
+CirnoRCharacterMagicGrenade:
+  Name: 마력 수류탄
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |마력 폭발의 여파|를 줍니다.
+  FlavorText: "Fire The Hole!"
+
+CirnoRCharacterMuggleWand:
+  Name: 머글 완드
+  Description: |-
+    적에게 피해를 {Damage}씩 {Value1}번 줍니다.
+    |총상|을 줍니다.
+  FlavorText: "이게 지팡이보다 훨씬 잘 들어."
+
+CirnoRCharacterIceSoul:
+  Name: 얼음의 영혼
+  Description: |-
+    청색 카드를 사용할 때마다 방어를 {Value1} 얻습니다.
+    적에게 |혹한|이 적용될 때마다 |보호막|을 {Value2} 얻습니다.
+  FlavorText: "그것은 고독한 눈, 죽은 비, 비의 정혼이다."
+
+CirnoRCharacterSymbioticRoot:
+  Name: 공생의 뿌리
+  Description: |-
+    {PlayerName}가 적에게 피해를 받으면, 해당 적의 |자연의 종말|을 발동시킵니다.
+  FlavorText: "맞은 만큼 돌려줄 거야."
+
+CirnoRCharacterAFragranceWithinReach:
+  Name: 손에 닿는 향기
+  Description: |-
+    방어를 {Block} 얻습니다.
+    이번 전투에서 사용한 |요정의 꽃| 1장마다 방어를 {Value2} 추가로 얻습니다.
+  FlavorText: "킁킁—— 킁킁—— 대짱, 냄새 좋다~"
+
+CirnoRCharacterTheCounterattackBegins:
+  Name: 반격 개시
+  Description: |-
+    모든 적에게 피해를 {Damage} 줍니다.
+    |자연의 종말|이 있는 적 1명마다 피해를 1회 추가로 줍니다.
+  FlavorText: "자, 이제 진짜 간다!"
+
+CirnoRCharacterWalkingInTheRain:
+  Name: 빗속을 걷다
+  Description: |-
+    방어를 {Block} 얻습니다.
+    이번 턴 동안 녹색 카드를 사용할 때마다 방어를 {Value2} 얻습니다.
+  FlavorText: "폭우 속을 걷는다. 우산은 하늘을 거꾸로 젓는 배."

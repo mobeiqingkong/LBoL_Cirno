@@ -1,0 +1,9 @@
+CirnoRCharacterUltA:
+  Title: Last Spell
+  Content: "Time Freeze"
+  Description: "Apply |Frost| to ALL enemies.\nEnd {PlayerName}'s turn and begin a new turn. |Time Limit|{Value1}."
+
+CirnoRCharacterUltB:
+  Title: Love Sign
+  Content: "Lonely Dreaming Girl"
+  Description: "{PlayerName} gains {Value1} stack of |Daiyousei's Blessing|.\nAdd {Value2} copies of |Fairy Flower| to your hand, |Temporarily Shaped| to cost <sprite=\"ManaSprite\" name=\"0\">. Attacks from these cards have |Precise|."

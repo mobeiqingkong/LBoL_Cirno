@@ -1,0 +1,14 @@
+CirnoRCharacterUltA:
+  Title: 终符
+  Content: "时间冻结"
+  Description: |-
+    对所有敌人施加|霜冻|。
+    结束{PlayerName}的回合，开启一个新的回合。|时间有限|{Value1}。
+
+CirnoRCharacterUltB:
+  Title: 恋符
+  Content: "Lonely Dreaming Girl"
+  Description: |-
+    {PlayerName}获得{Value1}点|大妖精的祝福|。
+    将{Value2}张|妖精之花|暂塑为<sprite="ManaSprite" name="0">加入手中，这些牌的攻击具有|精准|。
+

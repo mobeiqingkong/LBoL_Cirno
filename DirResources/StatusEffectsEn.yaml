@@ -1,0 +1,234 @@
+CirnoRCharacterFrostEtchingImprintSe:
+  Name: Extreme Frost
+  Description: After playing a blue card, apply |Frost| {Value1} time{Value1:plural one='' other='s'} to a random enemy.
+  Brief: After playing a blue card, apply |Frost| {Value1} time{Value1:plural one='' other='s'} to a random enemy.
+
+CirnoRCharacterFrostflowSe:
+  Name: Frostflow
+  Description: At the start of each turn, {PlayerName} gains {CirnoRCharacterFrostValue} |Frost Condensation|.
+  Brief: At the start of each turn, {PlayerName} gains {CirnoRCharacterFrostValue} |Frost Condensation|.
+
+CirnoRCharacterFrostCondensationSe:
+  Name: Frost Condensation
+  Description: |-
+    Each time damage is dealt to an enemy, lose 1 stack and apply |Frost| to the target enemy.
+  Brief: |-
+    Each time damage is dealt to an enemy, lose 1 stack and apply |Frost| to the target enemy.
+
+CirnoRCharacterFrostSe:
+  Name: Frost
+  Description: |-
+    At the start of {OwnerName}'s turn, gain {TempFirepowerNegativeValue} |Temporary Firepower Down|, then remove |Frost|.
+    When |Frost| is applied again, take {BaseDamage} damage and apply |Frostbite|.
+  Brief: |-
+    At the start of {OwnerName}'s turn, gain |Temporary Firepower Down|, then remove |Frost|.
+    When |Frost| is applied again, take damage and apply |Frostbite|.
+
+CirnoRCharacterFrozenHexagramSe:
+  Name: Frozen Hexagram Crystal
+  Description: After playing a blue card, {PlayerName} gains {TempFirepowerValue} |Temporary Firepower| and {ShieldValue} |Barrier|, lose 1 stack at the end of each turn.
+  Brief: After playing a blue card, {PlayerName} gains |Temporary Firepower| and |Barrier|, lose 1 stack at the end of each turn.
+
+CirnoRCharacterFrozenHexagramShieldSe:
+  Name: Frozen Hexagram Shield
+  Description: |-
+    At the end of {PlayerName}'s turn, gain {ShieldValue} |Barrier|, and {PlayerName} gains {LockedOnValue} |Lock On|.
+  Brief: |-
+    At the end of {PlayerName}'s turn, gain |Barrier|, and {PlayerName} gains |Lock On|.
+
+CirnoRCharacterNaturalGrowthSe:
+  Name: Natural Growth
+  Description: |-
+    For every {Value1} {Mana} spent, add a |Fairy Flower| to the hand.
+  Brief: |-
+    For every {Value1} {Mana} spent, add a |Fairy Flower| to the hand.
+
+CirnoRCharacterElfFlowerFieldSe:
+  Name: Midsummer Blossom
+  Description: |-
+    At the start of each {PlayerName}'s turn, gain {Mana}.
+    At the start of each {PlayerName}'s turn, add {TempCirnoRCharacterFairyFlowerValue} |Fairy Flower| to the hand.
+  Brief: |-
+    At the start of each {PlayerName}'s turn, gain {Mana}.
+    At the start of each {PlayerName}'s turn, add {TempCirnoRCharacterFairyFlowerValue} |Fairy Flowers| to the hand.
+
+CirnoRCharacterDaiyouseiBlessSe:
+  Name: Daiyousei's Blessing
+  Description: |-
+    Each time {PlayerName} plays a green card, gain {TempFirepowerValue} |Temporary Firepower|.
+  Brief: |-
+    Each time {PlayerName} plays a green card, gain {TempFirepowerValue} |Temporary Firepower|.
+
+CirnoRCharacterGuardianOfDaiyouseiSe:
+  Name: Daiyousei's Protection
+  Description: |-
+    At the end of each {PlayerName}'s turn, gain {TempCirnoRCharacterGuardianOfNatureSeValue} |Nature's Protection|.
+  Brief: |-
+    At the end of each {PlayerName}'s turn, gain {TempCirnoRCharacterGuardianOfNatureSeValue} |Nature's Protection|.
+
+CirnoRCharacterGuardianOfNatureSe:
+  Name: Nature's Protection
+  Description: |-
+    Each time damage is taken from an enemy source, lose 1 stack, and apply {Value1} |Nature's Demise| to the damage source.
+  Brief: |-
+    Each time damage is taken from an enemy source, lose 1 stack, and apply {Value1} |Nature's Demise| to the damage source.
+
+CirnoRCharacterDeathOfNatureSe:
+  Name: Nature's Demise
+  Description: |-
+    At the end of their turn, or when {PlayerName} performs a heal, a character with this imprint loses {loseHpValue} life. If the enemy has |Frostbite|, lose an additional {loseHpValueForFrost} life.
+    |Nature's Demise| cannot be removed.
+  Brief: |-
+    At the end of their turn, or when {PlayerName} performs a heal, a character with this imprint loses {loseHpValue} life. If the enemy has |Frostbite|, lose an additional {loseHpValueForFrost} life.
+    |Nature's Demise| cannot be removed.
+
+CirnoRCharacterEntangledRootsSe:
+  Name: Entangling Roots
+  Description: |-
+    Cannot act for {Level} turn{Level:plural one='' other='s'}.
+  Brief: |-
+    Cannot act for {Level} turn{Level:plural one='' other='s'}.
+
+CirnoRCharacterNaturalFieldSe:
+  Name: Nature's Domain
+  Description: |-
+    At the end of each {PlayerName}'s turn, lose 1 stack, apply {Value1} |Nature's Demise| to all enemies.
+  Brief: |-
+    At the end of each {PlayerName}'s turn, lose 1 stack, apply {Value1} |Nature's Demise| to all enemies.
+
+CirnoRCharacterFairyFeatherSe:
+  Name: Fairy Feather
+  Description: |-
+    Each time {PlayerName} plays a green card, apply {Value1} |Nature's Demise| to a random enemy.
+  Brief: |-
+    Each time {PlayerName} plays a green card, apply {Value1} |Nature's Demise| to a random enemy.
+
+CirnoRCharacterFairyFlowerSe:
+  Name: Fairy Flower
+  Description: |-
+    {SourceCardName} deals {additionalDamageValue} additional damage.
+  Brief: |-
+    {SourceCardName} deals {additionalDamageValue} additional damage.
+
+CirnoRCharacterForceOfNatureSe:
+  Name: Voice of Nature
+  Description: |-
+    At the start of {PlayerName}'s turn, gain {Level}{Mana}.
+  Brief: |-
+    At the start of {PlayerName}'s turn, gain {Level}{Mana}.
+    
+CirnoRCharacterWindGodBoostSe:
+  Name: Wind God Boost
+  Description: |-
+    At the end of {PlayerName}'s turn, gain {GrazeLevel} |Graze|, lose 1 stack.
+  Brief: |-
+    At the end of {PlayerName}'s turn, gain {GrazeLevel} |Graze|, lose 1 stack.
+
+CirnoRCharacterTheHiddenBiosphereSe:
+  Name: The Hidden Biosphere
+  Description: |-
+    At the end of {PlayerName}'s turn, trigger |Nature's Demise| for all enemies.
+  Brief: |-
+    At the end of {PlayerName}'s turn, trigger |Nature's Demise| for all enemies.
+
+CirnoRCharacterMagicGrenadeSe:
+  Name: Magic Aftermath
+  Description: |-
+    At the start of {OwnerName}'s turn, 30% chance to cannot act. Then, remove this effect.
+  Brief: |-
+    At the start of {OwnerName}'s turn, 30% chance to cannot act. Then, remove this effect.
+
+CirnoRCharacterMuggleWandSe:
+  Name: Gunshot Wound
+  Description: |-
+    At the end of {OwnerName}'s turn, lose 3% of Max HP.
+  Brief: |-
+    At the end of {OwnerName}'s turn, lose 3% of Max HP.
+
+CirnoRCharacterIceSoulSe:
+  Name: Ice Soul
+  Description: |-
+    Each time a blue card is played, gain {blockValue} |Block|.
+    Each time |Frost| is applied to an enemy, gain {shieldValue} |Barrier|.
+  Brief: |-
+    Each time a blue card is played, gain {blockValue} |Block|.
+    Each time |Frost| is applied to an enemy, gain {shieldValue} |Barrier|.
+
+CirnoRCharacterFrostbiteSe:
+  Name: Frostbite
+  Description: |-
+    At the start of {OwnerName}'s turn, lose {StackDamage} HP.
+    When damage taken from |Frostbite| at the start of turn reaches {damageCount} times, {OwnerName} gains 1 |Frozen| and resets the counter.
+  Brief: |-
+    At the start of {OwnerName}'s turn, lose {StackDamage} HP.
+    When damage taken from |Frostbite| reaches {damageCount} times, gain |Frozen| and reset counter.
+
+CirnoRCharacterFrostUpSe:
+  Name: Frost Erosion
+  Description: |-
+    Damage dealt by |Frostbite| is increased by {Value1} time{Value1:plural one='' other='s'}.
+  Brief: |-
+    Damage dealt by |Frostbite| is increased by {Value1} time{Value1:plural one='' other='s'}.
+
+CirnoRCharacterMoistSe:
+  Name: Frozen Rain
+  Description: |-
+    Base damage dealt by |Frost| and |Frostbite| is increased by {Value1}.
+  Brief: |-
+    Base damage dealt by |Frost| and |Frostbite| is increased by {Value1}.
+
+CirnoRCharacterFrostDomainSe:
+  Name: Frost Domain
+  Description: |-
+    Each time |Frost| is applied, also trigger |Frostbite|.
+  Brief: |-
+    Each time |Frost| is applied, also trigger |Frostbite|.
+
+CirnoRCharacterFreezeBloodIntoIceSe:
+  Name: Frozen Blood into Ice
+  Description: |-
+    At the start of own turn, lose {loseHpValue} life, gain {firepowerValue} |Firepower|.
+  Brief: |-
+    At the start of own turn, lose {loseHpValue} life, gain {firepowerValue} |Firepower|.
+
+CirnoRCharacterFrozenSe:
+  Name: Frozen
+  Description: |-
+    Cannot act for {Value1} turn{Value1:plural one='' other='s'}.
+  Brief: |-
+    Cannot act for {Value1} turn{Value1:plural one='' other='s'}.
+
+CirnoRCharacterIceTearsSe:
+  Name: Ice Tears
+  Description: |-
+    Whenever {PlayerName} loses HP, if the damage source is an enemy, apply |Frost| to that enemy and trigger |Frostbite|.
+  Brief: |-
+    Whenever {PlayerName} loses HP, if the damage source is an enemy, apply |Frost| and trigger |Frostbite| on that enemy.
+
+CirnoRCharacterFairyTeaPartySe:
+  Name: Fairy Tea Party
+  Description: |-
+    Each time a blue card is played, draw a card; each time a green card is played, gain <sprite="ManaSprite" name="P">. (Cumulative draws and mana gains cannot exceed {limitValue} time{limitValue:plural one='' other='s'}, {leftValue} left). Removed at the end of the turn.
+  Brief: |-
+    Each time a blue card is played, draw a card; each time a green card is played, gain <sprite="ManaSprite" name="P">. (Cumulative draws and mana gains cannot exceed {limitValue} time{limitValue:plural one='' other='s'}, {leftValue} left). Removed at the end of the turn.
+
+CirnoRCharacterSpringAndTheFairySe:
+  Name: Spring and the Fairy
+  Description: |-
+    At the end of {PlayerName}'s turn, gain {Value1} |Barrier| and recover {Value2} life.
+  Brief: |-
+    At the end of {PlayerName}'s turn, gain {Value1} |Barrier| and recover {Value2} life.
+
+CirnoRCharacterSymbioticRootSe:
+  Name: Symbiotic Roots
+  Description: |-
+    Whenever {PlayerName} loses HP, if the damage source is an enemy, trigger their |Natural Decay|.
+  Brief: |-
+    Whenever {PlayerName} loses HP, if the damage source is an enemy, trigger their |Natural Decay|.
+
+CirnoRCharacterWalkingInTheRainSe:
+  Name: Walking in the Rain
+  Description: |-
+    This turn, whenever you play a Green card, gain {Value1} Block.
+  Brief: |-
+    This turn, whenever you play a Green card, gain {Value1} Block.

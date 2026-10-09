@@ -1,0 +1,9 @@
+CirnoRCharacterUltA:
+  Title: 終符
+  Content: "時間凍結"
+  Description: "敵全体に|霜凍|を与える。\n{PlayerName}のターンを終了し、新しいターンを開始する。|時間制限|{Value1}。"
+
+CirnoRCharacterUltB:
+  Title: 恋符
+  Content: "Lonely Dreaming Girl"
+  Description: "{PlayerName}は|大妖精の祝福|を{Value1}得る。\n|妖精の花|を{Value2}枚手札に加える。それらは|臨時コスト|を<sprite=\"ManaSprite\" name=\"0\">となり、これらのカードの攻撃は|精密|を持つ。"

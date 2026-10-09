@@ -1,0 +1,9 @@
+CirnoRCharacterUltA:
+  Title: 終符
+  Content: "時間凍結"
+  Description: "對所有敵人施加|霜凍|。\n結束{PlayerName}的回合，開啟一個新的回合。|時間有限|{Value1}。"
+
+CirnoRCharacterUltB:
+  Title: 戀符
+  Content: "Lonely Dreaming Girl"
+  Description: "{PlayerName}獲得{Value1}點|大妖精的祝福|。\n將{Value2}張|妖精之花|暫塑為<sprite=\"ManaSprite\" name=\"0\">加入手中，這些牌的攻擊具有|精準|。"

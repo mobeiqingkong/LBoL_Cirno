@@ -1,0 +1,234 @@
+CirnoRCharacterFrostEtchingImprintSe:
+  Name: 極度霜寒
+  Description: 青いカードを使用後、ランダムな敵に|霜凍|を{Value1}回付与する。
+  Brief: 青いカードを使用後、ランダムな敵に|霜凍|を{Value1}回付与する。
+
+CirnoRCharacterFrostflowSe:
+  Name: 氷脈
+  Description: 各ターン開始時、{PlayerName}は{CirnoRCharacterFrostValue}層の|凝霜|を得る。
+  Brief: 各ターン開始時、{PlayerName}は{CirnoRCharacterFrostValue}層の|凝霜|を得る。
+
+CirnoRCharacterFrostCondensationSe:
+  Name: 凝霜
+  Description: |-
+    敵にダメージを与えるたび、層数が1減少し、対象の敵に|霜凍|を付与する。
+  Brief: |-
+    敵にダメージを与えるたび、層数が1減少し、対象の敵に|霜凍|を付与する。
+
+CirnoRCharacterFrostSe:
+  Name: 霜凍
+  Description: |-
+    {OwnerName}のターン開始時、{TempFirepowerNegativeValue}点の|臨時火力ダウン|を得て、|霜凍|が解除される。
+    再度|霜凍|効果を受けた時、{BaseDamage}点のダメージを受け、|凍傷|が付与される。
+  Brief: |-
+    {OwnerName}のターン開始時、|臨時火力ダウン|を得て、|霜凍|が解除される。
+    再度|霜凍|効果を受けた時、ダメージを受け、|凍傷|が付与される。
+
+CirnoRCharacterFrozenHexagramSe:
+  Name: 六芒星氷晶
+  Description: 青いカードを使用後、{PlayerName}は{TempFirepowerValue}層の|臨時火力|と{ShieldValue}層の|バリア|を得る。各ターン終了時に層数が1減少する。
+  Brief: 青いカードを使用後、{PlayerName}は|臨時火力|と|バリア|を得る。各ターン終了時に層数が1減少する。
+
+CirnoRCharacterFrozenHexagramShieldSe:
+  Name: 氷結六芒星盾
+  Description: |-
+    {PlayerName}のターン終了時、{ShieldValue}点の|バリア|を得て、{PlayerName}に{LockedOnValue}層の|ロックオン|を追加する。
+  Brief: |-
+    {PlayerName}のターン終了時、|バリア|を得て、{PlayerName}に|ロックオン|を追加する。
+
+CirnoRCharacterNaturalGrowthSe:
+  Name: 自然生長
+  Description: |-
+    {Value1}点の{Mana}を使用するごとに、手札に|妖精之花|を1枚追加する。
+  Brief: |-
+    {Value1}点の{Mana}を使用するごとに、手札に|妖精之花|を1枚追加する。
+
+CirnoRCharacterElfFlowerFieldSe:
+  Name: 盛夏花開
+  Description: |-
+    {PlayerName}のターン開始時、{Mana}を得る。
+    {PlayerName}のターン開始時、手札に{TempCirnoRCharacterFairyFlowerValue}枚の|妖精之花|を追加する。
+  Brief: |-
+    {PlayerName}のターン開始時、{Mana}を得る。
+    {PlayerName}のターン開始時、手札に|妖精之花|を追加する。
+
+CirnoRCharacterDaiyouseiBlessSe:
+  Name: 大妖精の祝福
+  Description: |-
+    {PlayerName}が緑のカードを使用するたび、{TempFirepowerValue}層の|臨時火力|を得る。
+  Brief: |-
+    {PlayerName}が緑のカードを使用するたび、|臨時火力|を得る。
+
+CirnoRCharacterGuardianOfDaiyouseiSe:
+  Name: 大妖精の守護
+  Description: |-
+    {PlayerName}のターン終了時、{TempCirnoRCharacterGuardianOfNatureSeValue}層の|自然庇護|を得る。
+  Brief: |-
+    {PlayerName}のターン終了時、|自然庇護|を得る。
+
+CirnoRCharacterGuardianOfNatureSe:
+  Name: 自然庇護
+  Description: |-
+    敵からのダメージを受けるたび、層数が1減少し、ダメージ源に{Value1}層の|自然消亡|を付与する。
+  Brief: |-
+    敵からのダメージを受けるたび、層数が1減少し、ダメージ源に|自然消亡|を付与する。
+
+CirnoRCharacterDeathOfNatureSe:
+  Name: 自然消亡
+  Description: |-
+    この印を持つキャラクターは、自身のターン終了時または{PlayerName}が治癒を行う時、{loseHpValue}点のライフを失う。敵が|凍傷|を持っている場合、さらに{loseHpValueForFrost}点のライフを失う。
+    |自然消亡|は解除できない。
+  Brief: |-
+    この印を持つキャラクターは、自身のターン終了時または{PlayerName}が治癒を行う時、ライフを失う。敵が|凍傷|を持っている場合、さらにライフを失う。
+    |自然消亡|は解除できない。
+
+CirnoRCharacterEntangledRootsSe:
+  Name: 根須纏繞
+  Description: |-
+    {Level}ターン行動不能。
+  Brief: |-
+    {Level}ターン行動不能。
+
+CirnoRCharacterNaturalFieldSe:
+  Name: 自然領域
+  Description: |-
+    {PlayerName}のターン終了時、層数が1減少し、全ての敵に{Value1}層の|自然消亡|を付与する。
+  Brief: |-
+    {PlayerName}のターン終了時、層数が1減少し、全ての敵に|自然消亡|を付与する。
+
+CirnoRCharacterFairyFeatherSe:
+  Name: 妖精之羽
+  Description: |-
+    {PlayerName}が緑のカードを使用するたび、ランダムな敵に{Value1}層の|自然消亡|を付与する。
+  Brief: |-
+    {PlayerName}が緑のカードを使用するたび、ランダムな敵に|自然消亡|を付与する。
+
+CirnoRCharacterFairyFlowerSe:
+  Name: 妖精之花
+  Description: |-
+    {SourceCardName}が{additionalDamageValue}点の追加ダメージを与える。
+  Brief: |-
+    {SourceCardName}が追加ダメージを与える。
+
+CirnoRCharacterForceOfNatureSe:
+  Name: 自然之声
+  Description: |-
+    {PlayerName}のターン開始時、{Level}点の{Mana}を得る。
+  Brief: |-
+    {PlayerName}のターン開始時、{Level}点の{Mana}を得る。
+
+CirnoRCharacterWindGodBoostSe:
+  Name: 風神助推
+  Description: |-
+    {PlayerName}のターン終了時、{GrazeLevel}層の|グレイズ|を得て、層数が1減少する。
+  Brief: |-
+    {PlayerName}のターン終了時、|グレイズ|を得て、層数が1減少する。
+
+CirnoRCharacterTheHiddenBiosphereSe:
+  Name: 隠された生物圏
+  Description: |-
+    {PlayerName}のターン終了時、全ての敵の|自然消亡|を発動する。
+  Brief: |-
+    {PlayerName}のターン終了時、全ての敵の|自然消亡|を発動する。
+
+CirnoRCharacterMagicGrenadeSe:
+  Name: 魔法余波
+  Description: |-
+    {OwnerName}のターン開始時、30%の確率で行動不能になる。その後、この効果は取り除かれる。
+  Brief: |-
+    {OwnerName}のターン開始時、30%の確率で行動不能になる。その後、この効果は取り除かれる。
+
+CirnoRCharacterMuggleWandSe:
+  Name: 銃傷
+  Description: |-
+    {OwnerName}のターン終了時、ライフ最大値の3%を失う。
+  Brief: |-
+    {OwnerName}のターン終了時、ライフ最大値の3%を失う。
+
+CirnoRCharacterIceSoulSe:
+  Name: 氷魄
+  Description: |-
+    青いカードを使用するたび、{blockValue}点の|ブロック|を得る。
+    敵に|霜凍|を付与するたび、{shieldValue}点の|バリア|を得る。
+  Brief: |-
+    青いカードを使用するたび、|ブロック|を得る。
+    敵に|霜凍|を付与するたび、|バリア|を得る。
+
+CirnoRCharacterFrostbiteSe:
+  Name: 凍傷
+  Description: |-
+    {OwnerName}のターン開始時、{StackDamage}点のライフを失う。
+    |凍傷|によるターン開始時のダメージが{damageCount}回に達した時、{OwnerName}は|氷封|を1層得て、カウンターをリセットする。
+  Brief: |-
+    {OwnerName}のターン開始時、{StackDamage}点のライフを失う。
+    |凍傷|によるダメージが{damageCount}回に達した時、|氷封|を得てカウンターをリセットする。
+
+CirnoRCharacterFrostUpSe:
+  Name: 霜蝕
+  Description: |-
+    |凍傷|によるダメージが{Value1}倍になる。
+  Brief: |-
+    |凍傷|によるダメージが増加する。
+
+CirnoRCharacterMoistSe:
+  Name: 凍雨
+  Description: |-
+    |霜凍|と|凍傷|による基本ダメージが{Value1}点上昇する。
+  Brief: |-
+    |霜凍|と|凍傷|による基本ダメージが上昇する。
+
+CirnoRCharacterFrostDomainSe:
+  Name: 霜域
+  Description: |-
+    |霜凍|を付与するたび、|凍傷|も発動する。
+  Brief: |-
+    |霜凍|を付与するたび、|凍傷|も発動する。
+
+CirnoRCharacterFreezeBloodIntoIceSe:
+  Name: 凝血成冰
+  Description: |-
+    自身のターン開始時、{loseHpValue}点のライフを失い、{firepowerValue}点の|火力|を得る。
+  Brief: |-
+    自身のターン開始時、ライフを失い、|火力|を得る。
+
+CirnoRCharacterFrozenSe:
+  Name: 氷封
+  Description: |-
+    {Value1}ターン行動不能。
+  Brief: |-
+    {Value1}ターン行動不能。
+
+CirnoRCharacterIceTearsSe:
+  Name: 氷泪
+  Description: |-
+    {PlayerName}がライフを失うたび、ダメージ源が敵の場合、その敵に|霜凍|を付与し、|凍傷|を発動する。
+  Brief: |-
+    {PlayerName}がライフを失うたび、ダメージ源が敵の場合、その敵に|霜凍|を付与し、|凍傷|を発動する。
+
+CirnoRCharacterFairyTeaPartySe:
+  Name: 妖精の茶会
+  Description: |-
+    青いカードを使用するたび、カードを1枚引く。緑のカードを使用するたび、<sprite="ManaSprite" name="P">を得る。（引いたカード数と得たマナ数は合計{limitValue}回まで、残り{leftValue}回）。ターン終了時にこの効果は解除される。
+  Brief: |-
+    青いカードを使用するたび、カードを1枚引く。緑のカードを使用するたび、<sprite="ManaSprite" name="P">を得る。（引いたカード数と得たマナ数は合計{limitValue}回まで、残り{leftValue}回）。ターン終了時にこの効果は解除される。
+
+CirnoRCharacterSpringAndTheFairySe:
+  Name: 春と妖精
+  Description: |-
+    {PlayerName}のターン終了時、{Value1}点の|バリア|を得て、{Value2}点のライフを回復する。
+  Brief: |-
+    {PlayerName}のターン終了時、|バリア|を得て、ライフを回復する。
+
+CirnoRCharacterSymbioticRootSe:
+  Name: 共生根絡
+  Description: |-
+    {PlayerName}がライフを失うたび、ダメージ源が敵の場合、敵の|自然消亡|を発動する。
+  Brief: |-
+    {PlayerName}がライフを失うたび、ダメージ源が敵の場合、敵の|自然消亡|を発動する。
+
+CirnoRCharacterWalkingInTheRainSe:
+  Name: 雨の中の散歩
+  Description: |-
+    このターン中、緑のカードを1枚使用するごとに、{Value1}点の|ブロック|を得る。
+  Brief: |-
+    このターン中、緑のカードを1枚使用するごとに、{Value1}点の|ブロック|を得る。

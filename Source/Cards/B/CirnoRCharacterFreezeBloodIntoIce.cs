@@ -1,0 +1,73 @@
+using System.Collections.Generic;
+using CirnoRCharacterMod.Cards.Template;
+using CirnoRCharacterMod.GunName;
+using CirnoRCharacterMod.StatusEffects;
+using LBoL.Base;
+using LBoL.ConfigData;
+using LBoL.Core;
+using LBoL.Core.Battle;
+using LBoL.Core.Battle.BattleActions;
+using LBoL.Core.Cards;
+using LBoL.Core.StatusEffects;
+using LBoL.Core.Units;
+using LBoL.EntityLib.StatusEffects.Cirno;
+using LBoLEntitySideloader.Attributes;
+
+namespace CirnoRCharacterMod.Cards
+{
+    public sealed class CirnoRCharacterFreezeBloodIntoIceDef : CirnoRCharacterCardTemplate
+    {
+        public override CardConfig MakeConfig()
+        {
+            CardConfig config = GetDefaultCardConfig();
+
+            config.Colors = new List<ManaColor>() { ManaColor.Blue };
+            config.Cost = new ManaGroup() { Blue = 1 };
+            config.UpgradedCost = new ManaGroup() { Any = 1 };
+            config.Rarity = Rarity.Uncommon;
+
+            config.Type = CardType.Ability;
+            config.TargetType = TargetType.Self;
+
+            config.Damage = 3;
+            config.UpgradedDamage = 3;
+
+            config.Keywords = Keyword.None;
+            config.UpgradedKeywords = Keyword.None;
+            config.RelativeEffects = new List<string>()
+            {
+                nameof(CirnoRCharacterFreezeBloodIntoIceSe),
+            };
+            config.UpgradedRelativeEffects = new List<string>()
+            {
+                nameof(CirnoRCharacterFreezeBloodIntoIceSe),
+            };
+
+            config.Value1 = 1;
+            config.UpgradedValue1 = 1;
+
+            config.Illustrator = "";
+
+            config.Index = CardIndexGenerator.GetUniqueIndex(config);
+            return config;
+        }
+    }
+
+    [EntityLogic(typeof(CirnoRCharacterFreezeBloodIntoIceDef))]
+    public sealed class CirnoRCharacterFreezeBloodIntoIce : CirnoRCharacterCard
+    {
+        protected override IEnumerable<BattleAction> Actions(
+            UnitSelector selector,
+            ManaGroup consumingMana,
+            Interaction precondition
+        )
+        {
+            if (IsUpgraded)
+            {
+                yield return BuffAction<Firepower>(Value1, Value1);
+            }
+            yield return BuffAction<CirnoRCharacterFreezeBloodIntoIceSe>(Value1, Value1);
+            yield break;
+        }
+    }
+}

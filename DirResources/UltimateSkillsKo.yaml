@@ -1,0 +1,13 @@
+CirnoRCharacterUltA:
+  Title: 라스트 스펠
+  Content: "타임 프리즈"
+  Description: |-
+    모든 적에게 |혹한|을 줍니다.
+    {PlayerName}의 턴을 종료하고 새로운 턴을 시작합니다. |시간 제한|{Value1}.
+
+CirnoRCharacterUltB:
+  Title: 연부
+  Content: "외로운 꿈꾸는 소녀"
+  Description: |-
+    {PlayerName}가 |대요정의 가호|를 {Value1} 얻습니다.
+    |요정의 꽃|을 {Value2}장 손에 추가합니다. 이 카드들은 비용이 일시적으로 <sprite="ManaSprite" name="0">가 되며, |명중|을 얻습니다.

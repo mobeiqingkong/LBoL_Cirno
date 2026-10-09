@@ -1,0 +1,578 @@
+# 琪露诺R —— 台词表（English）
+#
+# 直接编辑本文件即可，【不需要重新编译】；改完重启游戏就生效。
+# （读取器会比对文件修改时间，改了会自动重读，连重启都可以省。）
+#
+# 缺哪个键就自动回落到 DialogZhHans.yaml 的同名键，所以可以只翻译一部分。
+#
+# ===== 键名分组 =====
+#   Meet                  进入战斗时琪露诺的开场白（key = 敌人的 C# 类名，如 Reimu / Seija）
+#   Reply                 与敌人的【交替对白】，紧跟开场白
+#   Defeat                击败该角色后琪露诺说的话
+#   GenericMeet           杂兵兜底：按关键词匹配敌人 Id，在候选里随机取一条
+#   GenericMeetFallback   完全没有匹配上时用的开场白
+#   GenericDefeatFallback 兜底击败语
+#   Ending                击败最终 BOSS 正邪时的分流台词
+#
+# ===== ★ Reply 是交替的，谁在第几句说话必须数清楚 =====
+#   Reply 的第 1 句由【敌人】说，之后 琪露诺 → 敌人 → 琪露诺 → …
+#   即：偶数下标（0/2/4）＝敌人说，奇数下标（1/3/5）＝琪露诺说。写反了就串台词。
+#   写成单行字符串 = 只有 1 句（那 1 句由敌人说）。
+#
+# ===== 写作规矩 =====
+#   · 一句一行，尽量不超过 34 个字（气泡宽度有限）。
+#     Meet 1~2 句；Reply 2~6 句；Defeat 1 句。台词多的角色别超过 7 句，
+#     否则开局对白会太长（驱动侧有 11 秒上限，超了会按比例压缩、句子会变赶）。
+#   · 第一人称「咱」；救人对象一律叫「公主」，不点名（日语あたい / 韩语나 / 英语 I）。
+#   · 「勇者」只允许出现在原作三句式里（自称题名 / 反驳「笨蛋勇者」/ 胜利口号）。
+#   · 不要出现 { } | < >（会被游戏的格式化与富文本逻辑吃掉）。
+#   · 引号一律用「」『』，不要用 ASCII 双引号（会把 YAML 字符串截断）。
+#
+# ===== 本 mod 的设定（写台词前先读）=====
+#   琪露诺是**穿越者**：她误打误撞、连原因都没弄明白，就从《东方冰之勇者记》的世界线
+#   掉进了这个世界（幻想乡的另一条世界）。她要找【境界感知仪】才能开门回家，
+#   而在她的世界线里，这些人大多也存在 —— 只是经历、立场、甚至善恶都不一样
+#   （最要命的是：她那边的灵梦是把她公主关进大祭坛的「梦魇巫女」，这边的灵梦却什么都没干过）。
+#   所以对白里可以出现「咱那边的你」「你不是咱认识的那个」「这儿的你不是这样」这类对照，
+#   但别每场都重复同一个句式 —— 换个角度说（认错人 / 气味不对 / 你不属于这儿 / 谢谢这边你）。
+# =====
+#
+# --- English notes ---
+#   First person: I. The one she is going home for: the princess. Ice Hero → the Hero of Ice Fairy.
+#   [Border Sensor] / the Grand Altar / Nightmare Miko — same wording as the mod description.
+#   Lines are kept short on purpose: English reads at 0.55 width per character, so a long
+#   line costs more talk time than the Chinese original. Keep every line under ~50 characters.
+
+Meet:
+  # ---- optional opponents ----
+  Reimu: ["Red-white shrine maiden — and that face again.", "No. You are not the one I know."]
+  Marisa: "A star magician. We have one of those back home."
+  Sakuya: "You stop time. You cannot stop a road. I am in a hurry — move, move."
+  Alice: "Your dolls are lovely. The one back home would say so too."
+  Cirno: ["Two of me? Then nothing can beat us!", "Wait. There is only one of me."]
+  Koishi: "Go on and read. You cannot read my heart anyway."
+
+  # ---- named enemies ----
+  Aya: "Tengu reporter. Headline: 『the strongest Hero of Ice Fairy』."
+  Clownpiece: "Your flag is stuck in someone's doorway. Take it back."
+  Doremy: "I have had enough of dreams that loop back to the start."
+  Junko: ["Hate that deep... I think I understand a little.", "But I cannot hate. I still have someone to bring home."]
+  Kokoro: "Masks give you new faces. All I have is 『the strongest』."
+  Luna: "Why are you following me?"
+  Nitori: "Hey. Can you build a machine that crosses boundaries?"
+  Remilia: "How old are you? I can only count to nine."
+  Rin: "Things people lose should be given back."
+  Sanae: "You came from outside too, right? I can smell it."
+  Star: "You are all sparkly. The princess would love you."
+  Sunny: "Too bright! My ice is going to melt!"
+  SuwakoLimao: "I know it was wrong. But two is all I can count."
+  KanakoLimao: "No wind blows my ice apart."
+  Tianzi: "You smell of peaches. The princess would hug you first."
+  Youmu: "You hesitated just now. Same as the princess."
+  Yuyuko: "Do not eat me. I am made of ice and taste awful."
+  LightFairy: "My ice only reflects light. It does not make any."
+  Eirin: "Brain of the moon. Teach me how to break a boundary."
+  Kaguya: "If you never die, waiting for someone cannot be hard."
+  Mokou: "Your fire is strong. I will back off three steps."
+  Yukari: ["Stop pretending. You saw how I got here.", "That seam — did you leave it open?"]
+  Satori: "Do not read my mind. It is all the same thing inside."
+  Miko: "I do not know grand principles. I just want to bring her back."
+  Kogasa: "You did not scare me. I was playing along."
+  Mystia: "Lovely song. But I have a road to walk."
+  Tewi: "No more tricks. I fell for it once already."
+  Reisen: "Is there anything hot left on the rabbit train?"
+  Patchouli: "Miss witch. Fire cannot be frozen, right?"
+  Suika: "Small is small, heavy is heavy, ice is ice."
+  Parsee: "I am not jealous. I am homesick."
+  Nazrin: "Seen a tool that glitters and opens doors?"
+  Shinmyoumaru: "Little princess. You are waiting for someone to save you too."
+  Hatate: "Can you print two copies? One is going home with me."
+  Hina: "Give me all the bad luck. I am not afraid."
+  Medicine: "My ice locks the poison in. It will not spread."
+  Keine: "Teacher of history. Is this road of mine the wrong one?"
+  Kagerou: "The moon is so round. If only it lit the road home."
+  Sumireko: "You came from another world too? A fellow outsider!"
+  Rumia: "So dark. Follow my ice — it shows the way."
+  Rinnosuke: "An item that takes someone home? I can pay in ice."
+  Sanyue: "All three of you at once. That is a little unfair."
+  Satono: "You two always show up together. So do the princess and I."
+  Mai: "A snow woman? So this world has snow too."
+  Mike: "That drum is loud. But it wakes you right up."
+  Kosuzu: "Which of your books has the way home?"
+  Narumi: "That ribbon — just let me look at it."
+  Miyoi: "Anything hot? My fingers are frozen stiff."
+  Xing: "A youkai made of stars. You must know the way."
+  Yachie: "I take no sides. I am just passing through."
+  Jyoon: "No amount of strength bends ice."
+  Hecatia: "Please. Send me back to my own world."
+  Takane: "Can you build a door that leads to my home?"
+  Yorihime: "If you ever lost a sister, you would understand me."
+  Toyohime: "Save me a peach. What I want is a road."
+  Siji: "It is not yet time for me to be judged."
+  Yiji: "Another rabbit. I will not fall for it again."
+  DreamServants: "Is this a dream? Will I be home when I wake up?"
+  Long: "Rabbit or dragon? I can count it. Two."
+  Ringo: "I will take the dumpling. Half goes to the princess."
+  Shion: "Stay away, poverty god. I am unlucky enough."
+  Eternity: "Fairies forget things. Do you know about boundaries?"
+  Budu: "If you do not want to fight, let me through."
+  Seija: "Give me back my road home."
+
+Reply:
+  # ---- optional opponents ----
+  Reimu:
+    - "You glared at me the moment I walked in. Did I do something?"
+    - "The you back home locked my princess in the Grand Altar."
+    - "...The me back home sounds like a piece of work. I never did that here."
+    - "I know. That is why I held back. But I am here now, so let us fight."
+  Marisa:
+    - "Yo, Cirno? Close enough. But I do not remember meeting you."
+    - "You do not know me. I fell in from another world."
+    - "Another world? There is more than one? That sounds made up."
+    - "I think so too. But if you will not move, I will try your spark."
+  Sakuya:
+    - "In a hurry? Nobody leaves before the young lady's banquet."
+    - "I am not leaving. I am going home."
+    - "...Home. I have heard that reason many times. You are not leaving."
+  Alice:
+    - "Over there? You talk like you have met me."
+    - "I have. But that one did not smile this much."
+    - "...When I am not smiling, I am usually sewing."
+  Cirno:
+    - "Hey, who are you? Why do you look like me?"
+    - "I was about to ask you that. Are you the me from here?"
+    - "From here? What are you even talking about?"
+    - "Whatever. Whoever wins is the strongest me."
+  Koishi:
+    - "Huh? I really cannot read it. Your head is so empty, like... outside."
+    - "I am from outside. No need to read. I will just say it."
+    - "Outsiders sure talk a lot. Let me test what they can do."
+
+  # ---- named enemies ----
+  Aya:
+    - "Scoop! A fairy from another world — say something!"
+    - "I am not some otherworld fairy. I fell in."
+    - "Falling in is a scoop too! How did you do it?"
+    - "I do not know. That is why I need the way back."
+  Clownpiece:
+    - "Well, if it is not the idiot fairy! Lost again?"
+    - "I am not an idiot fairy!"
+    - "Bahaha, the reaction is identical. Where did you pop out from?"
+    - "From my own world. I do not know a single person here."
+    - "Then I sort of feel sorry for you. Let us fight!"
+  Doremy:
+    - "Strange. I weave the dreams, yet yours is not on my ledger."
+    - "Right. I do not sleep in your web."
+    - "...Interesting. Then how did you get in?"
+    - "I do not know. I woke up and I was already here."
+    - "Then go back to sleep."
+  Junko:
+    - "What do you know. You are not even qualified to hate."
+    - "I have never hated anyone. I just want to bring her back."
+    - "Bring her back... at least you still can."
+    - "That is why I cannot stop."
+  Kokoro:
+    - "The one on your face is loud. It echoes."
+    - "...Echoes? I do not follow."
+    - "Your heart has two layers. One is here, one is far away."
+    - "Oh. Then one of them is for the princess, probably."
+  Luna:
+    - "I finally caught up with you, Cirno. I will not lose this time."
+    - "Hey, hey, hey. Wrong person! Wrong person!"
+  Nitori:
+    - "I could... but first, where is the customer from?"
+    - "Another world. Things that fall in cannot get out alone."
+    - "Whoa. Not taking this job. Boundaries cost extra. Try my machine."
+  Remilia:
+    - "Over five hundred years now. Will you count until next year?"
+    - "...Then I will stop counting."
+    - "Hmph. You, though — the smell on you does not belong here."
+  Rin:
+    - "Oh? Everything I pick up was unwanted by someone."
+    - "I am looking for an item that opens doors. Seen one?"
+    - "Never. If I had, I would have sold it already."
+    - "Then I will keep looking."
+  Sanae:
+    - "How did you know? Wait... you are not from the outside, are you."
+    - "I fell in from another world. Farther out than you."
+    - "Then how do you get back?"
+    - "With the [Border Sensor]. I am looking for it."
+    - "...Then let me draw you a fortune. Great curse."
+  Star:
+    - "Princess? Who is that?"
+    - "Someone I am bringing home. She likes shiny things."
+    - "Then you had better get shinier first."
+    - "...My ice only reflects light."
+  Sunny:
+    - "Melting is good! Sunlight is strong, you know!"
+    - "Strong is strong. But you are blinding me."
+    - "Then fight with your eyes closed!"
+    - "I will try. I can hear with them closed too."
+  SuwakoLimao:
+    - "About the frogs. I remember."
+    - "I stopped. I only freeze enemies now."
+    - "...Not very convincing."
+    - "Then I will prove it with my hands."
+  KanakoLimao:
+    - "Big words. Let us see you try."
+  Tianzi:
+    - "Peaches? Heaven is full of them. Want one?"
+    - "No. What I want is a road."
+    - "A road... that depends on whether you have the strength."
+  Youmu:
+    - "I did not hesitate. A swordswoman must not. Hesitation is defeat."
+    - "That line sounds awfully familiar."
+    - "Enough talk. Blades out."
+  Yuyuko:
+    - "Ice... then it can be shaved into dessert."
+    - "I do not taste good! I really do not!"
+  LightFairy:
+    - "What a waste. Light is the prettiest thing there is."
+    - "Light cannot be kept. Ice can."
+    - "...And what does keeping it get you? It melts in the end."
+    - "It melted, but it was kept. Same as what I am bringing home."
+  Eirin:
+    - "That is not medicine, that is taboo. Where did you come from?"
+    - "Another world. I fell in."
+    - "...Your body shows no sign of rejecting this world. Interesting."
+    - "I do not feel sick. I just cannot get back."
+  Kaguya:
+    - "Not hard? That is an infinity of patience spent on one thing."
+    - "I do not have infinity. I only have today and tomorrow."
+    - "Then you had better be quick. That much is a good thing."
+    - "I have been quick the whole time."
+  Mokou:
+    - "Clever. If it burns you, that is not my problem."
+    - "Fire is beautiful. But I am in a hurry."
+    - "You should stay instead."
+  Yukari:
+    - "Oh my, caught. That seam on you is clearer than the valley fog."
+    - "Then can you open it? Send me back."
+    - "I can. But I do not work for free."
+  Satori:
+    - "...Too loud. Your heart keeps repeating one sentence."
+    - "I know. Even I am sick of it."
+    - "『Faster』. It has said it hundreds of times. Where are you rushing to?"
+    - "Home. Someone there is waiting for me to fetch her."
+    - "...Then stopping you was my mistake."
+  Miko:
+    - "People who do not understand principles are often the rarest."
+    - "Then do not stand in my way. Let me be a rare one."
+    - "...I want your heart. It is more interesting than principles."
+    - "My heart is worthless. Only ice in it, and one person."
+  Kogasa:
+    - "Liar! You flinched, I saw it!"
+    - "That was the cold. I am made of ice."
+    - "...There it is, that dismissive tone again."
+    - "It is true. If I fear anything, it is not getting home."
+  Mystia:
+    - "Walking at night? People who walk at night never get far."
+    - "I am not taking the near path. I am going straight."
+    - "At least listen to a song first. One bowl of lamprey."
+    - "I have no money. I only have ice. Want some?"
+  Tewi:
+    - "Once? You are more honest than I thought."
+    - "There is a rabbit back home too. The same tricks."
+    - "Oh? Did that one string you along too?"
+    - "...How did you know."
+  Reisen:
+    - "The rabbit train stopped running long ago. Where did you board?"
+    - "I did not board. I fell in from another world."
+    - "...Then that ticket of yours is probably void."
+    - "Then I will walk. I have walked farther."
+  Patchouli:
+    - "...That is actually a good question. It cannot be frozen. Its keeper can."
+    - "So it can be frozen. Noted."
+    - "Which book did you come out of? I never wrote you."
+    - "I am not from a book. I walked through the wrong door."
+  Suika:
+    - "Oh? You are an interesting fairy."
+    - "There is a you back home too. She drinks less."
+    - "Then I had better teach you who the real Suika is."
+    - "Fine. I am in a hurry."
+  Parsee:
+    - "Homesick? That is uglier than jealousy."
+    - "Ugly is fine. I never aimed to be pretty."
+    - "...Someone waiting for you at home?"
+    - "Yes. That is why I am standing here."
+  Nazrin:
+    - "An item? You came to the right person. Deposit first."
+    - "I have no money. I can freeze your enemies for you."
+    - "...Deal. But only for one stick of incense."
+    - "Enough. I can search on my own too."
+  Shinmyoumaru:
+    - "Wait? I am the one who crawled out by myself."
+    - "...Then my princess could get out by herself too."
+    - "Not necessarily. Some doors open from the outside."
+    - "Then I will open it from the outside for her."
+  Hatate:
+    - "Take it home? Where is home?"
+    - "Far away. So far it is not on any map here."
+    - "Then that makes it a scoop! Two more shots!"
+    - "Shoot all you like. I need a road, not photos."
+  Hina:
+    - "All of it to me? You are bold."
+    - "I am unlucky enough. A little more cannot make it worse."
+    - "...Even I feel sad hearing that. Here, spit it out."
+    - "No need. I will carry it with me."
+  Medicine:
+    - "What is the point of freezing it. It rots anyway."
+    - "It rots more slowly. I need the time."
+    - "Time... what do you need time for?"
+    - "To reach somewhere a door can be opened."
+  Keine:
+    - "You are not in my history. Not one page."
+    - "That is not surprising. I fell in from outside."
+    - "...Outside? What year are you from, exactly?"
+    - "I do not know. I can only count to nine."
+  Kagerou:
+    - "The moon does not light the road. It lights things that bite."
+    - "Then I will walk the half without a moon."
+    - "...You take it well."
+    - "When I cannot, I look down and walk."
+  Sumireko:
+    - "Another world... you mean you are not from here?"
+    - "Right. I fell in and have not found the door back."
+    - "Then try my method. ...Though I got here by dreaming."
+    - "I tried dreaming. I woke up in the same place."
+    - "Ouch. That is a problem."
+  Rumia:
+    - "You froze the darkness? How is that possible."
+    - "Ice reflects light. Where there is ice, there is light."
+    - "...Then can you take the darkness home too?"
+    - "I only want to take one person home."
+  Rinnosuke:
+    - "An item for going home... those should not be for sale at all."
+    - "Why not?"
+    - "Because nobody buys a second one. Once used, they are gone."
+    - "Then I will buy this one."
+  Sanyue:
+    - "Unfair? The three of us have always fought together."
+    - "Then I will split my ice in three."
+    - "Haha, you think ice can split itself?"
+    - "It can. I tried, back home."
+  Satono:
+    - "You have a partner too? Where is she?"
+    - "Waiting very far away. That is why I have to hurry."
+    - "...Sounds like I should step aside."
+    - "I would like that too."
+  Mai:
+    - "Snow woman? I am not that sort of thing."
+    - "The you over here is. ...Probably."
+    - "Why do you talk like you came from somewhere else?"
+    - "Because I did come from somewhere else."
+  Mike:
+    - "Waking you up is the point! One strike and even oni rise."
+    - "Then can you drum out a road?"
+    - "Not a road. A rhythm, yes."
+    - "Then I will listen while I walk."
+  Kosuzu:
+    - "Going home... this book, that book — none seem to have it."
+    - "If not, fine. I will walk one out myself."
+    - "Then I will write it down. Someone will read it someday."
+    - "Write it. Put 『the strongest fairy』 in the title."
+  Narumi:
+    - "One look? This one is expensive."
+    - "I just thought it would look good on the princess."
+    - "...You keep saying princess. Who is she?"
+    - "Someone I am bringing home. That is all."
+  Miyoi:
+    - "Hot? Sure. But you have to pay."
+    - "I have no money. I will freeze you a bottle as payment."
+    - "...Nobody drinks frozen sake."
+    - "Then I will just go by myself."
+  Xing:
+    - "Know the way? We only know the paths in the sky."
+    - "Is there one up there that leads to another world?"
+    - "There is. But nobody who fell in ever came back."
+    - "Then I will be the first."
+  Yachie:
+    - "Passing through? This road is mine now."
+    - "Then I will go around."
+    - "Around? You do not even know how you got here."
+    - "...How do you know I do not know."
+  Jyoon:
+    - "Cannot bend it? Then I will smash it."
+    - "Smash it and it is still ice. My ice, all over the ground."
+    - "...You are a strange fairy."
+    - "Everyone back home says that."
+  Hecatia:
+    - "Oh? A little guest from another world. How do you know I can send you?"
+    - "I do not know. I ask everyone I meet."
+    - "...How many have you asked?"
+    - "I lost count. I can only count to nine."
+    - "Ha! Then here is one: the road is under your feet, not in anyone's hands."
+  Takane:
+    - "A door? How big, and leading where?"
+    - "I do not know where. Just my home."
+    - "...A door without coordinates, I cannot build."
+    - "Then I will find the coordinates first."
+  Yorihime:
+    - "...I have never lost a sister."
+    - "Then let me put it another way. If someone took her, what would you do?"
+    - "I would bring her back. By any means."
+    - "Then we are the same. So do not stop me."
+  Toyohime:
+    - "A road... the Lunar Capital has bridges. They do not reach your place."
+    - "Then I will walk to the end and build the rest myself."
+    - "Such spirit. Here, have another peach."
+    - "...Thanks. Half of it on the way."
+  Siji:
+    - "Whether you should be judged is for me to decide. What have you done?"
+    - "I just went to the wrong place."
+    - "Wrong place is not a sin. But you are missing a page."
+    - "...That page stayed in my own world."
+  Yiji:
+    - "Fooled? Have I ever tricked you?"
+    - "No. But the rabbit back home tricked me many times."
+    - "...Then I cannot lose to some other rabbit."
+    - "You two really are the same model."
+  DreamServants:
+    - "(Silently begins weaving a dream)"
+    - "...This dream again. I have had it several times now."
+    - "(In the dream, doors close one after another)"
+    - "Close them. Once I wake up, I will walk on my own."
+  Long:
+    - "...I am a dragon. Not a rabbit."
+    - "But you smell like a rabbit."
+    - "That is the smell of the train. Have you been on it too?"
+    - "No. I fell in."
+  Ringo:
+    - "Wait, I had not said you could have it."
+    - "It was already in your hand. That means you were giving it."
+    - "...What a pushy fairy you are."
+    - "I have always been like this."
+  Shion:
+    - "Rejected... but I am used to it."
+    - "I am not rejecting you. I have no second share of bad luck."
+    - "...That is true. Mine is already full."
+    - "So I have to leave quickly. Or it gets shared with me."
+  Eternity:
+    - "Boundaries? I have heard of them. But I forget by the next day."
+    - "...Then I will not get anything out of you."
+    - "But I do remember one thing: someone fell down from over there."
+    - "Who?!"
+    - "Forgot."
+  Budu:
+    - "Letting you through is not up to me alone."
+    - "Then I will ask each of you in turn."
+    - "...You really are a troublesome one."
+    - "Someone is waiting for me. Trouble does not matter."
+  Seija:
+    - "Your road home? Turn it upside down and you have no road at all."
+    - "I do. You people are just standing on it."
+    - "Standing on it? I only swapped 『above』 and 『below』."
+    - "Then I will swap them back."
+    - "Hah. A fairy who fell in from another world — what gives you the right?"
+    - "The fact that I have to get back."
+
+Defeat:
+  Reimu: "The you here is a good person. I will remember that."
+  Marisa: "The you back home was not this easy to beat."
+  Sakuya: "I won. Time to run."
+  Alice: "Your magic is gentle. Just like hers."
+  Cirno: ["I won. So does that mean... I am stronger than me?", "No. I just got lucky."]
+  Koishi: "You never really had a reason to stop me."
+  Aya: "Make the photo look good. The princess will see it."
+  Clownpiece: "I am not pitiful. I have somewhere to go back to."
+  Doremy: "At least this time, I am the one waking you."
+  Junko: "My road cannot stop."
+  Kokoro: "You smiled. That is good enough."
+  Luna: "Quiet at last. I am going."
+  Nitori: "You lost, so build me one for free. Settled."
+  Remilia: "Five hundred years of vampire cannot stop someone in a hurry."
+  Rin: "Everything is back where it was. I should go too."
+  Sanae: "Fellow outsider against fellow outsider. I feel a bit bad."
+  Star: "When I get back, I will tell the princess about you."
+  Sunny: "Bright and it melts. But I still won."
+  SuwakoLimao: "I said I would stop. This time I really did not freeze."
+  KanakoLimao: "The wind stopped. My turn to talk."
+  Tianzi: "The peach is mine. Half goes to the princess."
+  Youmu: "That was close. But I won."
+  Yuyuko: "I almost got eaten. That scared me to death."
+  LightFairy: "Lend me some light. I need to see the road."
+  Eirin: "I am still not taking that medicine. I want to be awake going home."
+  Kaguya: "Even the deathless can lose. So I will make it in time."
+  Mokou: "Strong fire. Too bad ice is colder."
+  Yukari: "You lost, so give me a road. A promise is a promise."
+  Satori: "Stop reading. I just want to go home."
+  Miko: "I do not know principles. I only walk forward."
+  Kogasa: "You were the one who got scared. Other way around."
+  Mystia: "Beautiful song. But I cannot sleep."
+  Tewi: "Fooled three more times. But I still won."
+  Reisen: "When does the train leave? Standing room is fine."
+  Patchouli: "So fire really cannot be frozen. Then I will freeze the person."
+  Suika: "Small stays small, heavy stays heavy, ice stays ice."
+  Parsee: "Jealousy makes you weak. Homesickness makes you strong."
+  Nazrin: "You could not find it. Then I will look myself."
+  Shinmyoumaru: "Grow a little more, and I will fight you again."
+  Hatate: "The headline is yours. I am going home."
+  Hina: "The bad luck is gone. The road ahead should be smoother."
+  Medicine: "The poison is frozen. Nobody got hurt."
+  Keine: "You do not know. Then I will walk it myself."
+  Kagerou: "The moon is still there. So is the direction."
+  Sumireko: "Next time we meet, tea is on me."
+  Rumia: "Frozen darkness reflects light too."
+  Rinnosuke: "No item. Then I will think of something."
+  Sanyue: "Three of you could not stop me either. Next."
+  Satono: "This ice of mine is enough for two people."
+  Mai: "Snow and ice were always family."
+  Mike: "I will remember that drum for a long time."
+  Kosuzu: "Thank you for the book."
+  Narumi: "Keep the ribbon. The princess will give me a new one."
+  Miyoi: "Next time, keep something hot for me."
+  Xing: "A star fell. Where is my road?"
+  Yachie: "I take no sides. I just want to go home."
+  Jyoon: "All that strength still cannot bend ice."
+  Hecatia: "Even a goddess could not stop me. So I will make it back."
+  Takane: "No door. Then I will find the way myself."
+  Yorihime: "You understand. I cannot stay here."
+  Toyohime: "Sweet peach. But I want dinner at home."
+  Siji: "Judgement can wait. I have something to do."
+  Yiji: "Fourth rabbit. This one is my win."
+  DreamServants: "The dream is ending. I have to be home."
+  Long: "Three losses to a rabbit. This time I finally won."
+  Ringo: "I will save the dumpling. One bite for the princess."
+  Shion: "The bad luck missed me. Thank you."
+  Eternity: "No answer. Then I keep looking."
+  Budu: "You stepped aside. Thank you."
+  Seija: "Whatever was turned over, I will just turn back."
+
+GenericMeet:
+  Fairy: ["A fairy? Just as loud as the ones back home.", "Out of the way. Someone is waiting for me.", "Smaller than me, but braver."]
+  Rabbit: ["Another rabbit. I will not fall for it.", "Rabbits that block the road get frozen too.", "I memorized the tricks. Which page was it?"]
+  Doll: ["A doll blocking the road? I will freeze it into an ornament.", "Nicely made. Too bad it will not step aside.", "It would be cute if it did not move."]
+  Mask: ["Masked ones are the most suspicious. Freeze the mask first.", "A fox mask... you lot again.", "Does not matter who is behind it."]
+  Tiangou: ["Tengu are fast. But ice is slippery.", "Flying around, are you? Freezing fixes that.", "Fast is fast. You still have to land."]
+  Wolf: ["A wolf? My ice beats your fangs.", "Howl all you like, you cannot stop me.", "Sharp teeth. Ice is harder."]
+  Ghost: ["A ghost? I-I am not scared!", "Floating around makes you hard to aim at.", "Do not pop out from behind!"]
+  Fox: ["A fox! I counted the traps.", "Nice tail. But I am in a hurry."]
+  Bat: ["Pitch black. Looks better frozen.", "Fly as wild as you like. Not as wild as my ice."]
+  Raven: ["A raven? We have those back home.", "A black bird over a frozen lake. Nice."]
+  Drone: ["It flies by itself? Then carry a letter for me.", "A kappa invention. Does it explode?"]
+  Girl: ["A girl? I am strong, you know.", "Do not look at me like that. I am not here to play."]
+  Yinyang: ["A yin-yang orb? Freeze it and it rolls away.", "Freeze it and it stops spinning. Simple."]
+  # cross-world: she asks the same thing wherever she goes
+  Boundary: ["A fragment of a boundary? I know that smell.", "Where is there an item that opens doors?"]
+
+GenericMeetFallback:
+  - "Anything in the way gets frozen!"
+  - "Do not stop me. I am in a hurry."
+  - "This does not even count as a warm-up."
+  - "Move. Someone is waiting for me."
+  - "I fell in from another world. How many times have I said that?"
+  - "I do not know a single road here."
+
+GenericDefeatFallback:
+  - "Done. Back on the road."
+  - "Next one, come at me together."
+  - "Princess, wait a little longer."
+  - "The Hero of Ice Fairy wins by a landslide!"
+
+Ending:
+  WithGenerator:
+    - "The door is open."
+    - "Princess — I have come to take you home."
+  WithoutGenerator:
+    - "The door is not here."
+    - "Then I will go around again. I will get there eventually."

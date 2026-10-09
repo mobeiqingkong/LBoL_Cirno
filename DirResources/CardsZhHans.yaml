@@ -1,0 +1,590 @@
+CirnoRCharacterIcicleFall:
+  Name: 冰符『冰瀑』
+  Description: |-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+    |初见|：抽 {Value2} 张牌。
+  ExtraDescription1: |-
+    对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+    |d:初见：抽 {Value2} 张牌。|
+  FlavorText: "别抬头。"
+
+CirnoRCharacterBindIceIntoASword:
+  Name: 冰符『束冰成剑』
+  Description: |-
+    造成 {Damage} 点伤害。
+    |火力|对{SelfName}效果提升为 {Value1} 倍。
+  FlavorText: "只要够锋利,杀人于无形。"
+
+CirnoRCharacterHailstorm:
+  Name: 雹符『冰雹暴风』
+  Description: 对所有敌人造成 {Damage} 点伤害 {Value1} 次。
+  FlavorText: "天气预报预报不到咱。"
+
+CirnoRCharacterDiamondBlizzard:
+  Name: 雪符『钻石风暴』
+  Description: 对所有敌人造成 {Damage} 点伤害 {Value1} 次。
+  UpgradedDescription: |-
+    对所有敌人造成 {Damage} 点伤害 {Value1} 次。
+    抽 {Value2} 张牌。
+  FlavorText: "敢接咱的钻石嘛？"
+
+CirnoRCharacterFrostColumns:
+  Name: 霜符『冰袭方阵』
+  Description: |-
+    获得 {Block} 点|护盾|和|格挡|。
+    如果有敌人的意图为攻击，对所有敌人施加 {Value2} 点|暂失火力|。
+  FlavorText: "临兵斗者，皆阵列前行！"
+
+CirnoRCharacterColdDivinity:
+  Name: 冻符『冷冻之神』
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    施加 {Value1} 次|霜冻|。
+  FlavorText: "神说要有冰，便有了冰。"
+
+CirnoRCharacterMinusK:
+  Name: 冻符『负K』
+  Description: |-
+    失去 {Value1} 点生命。
+    获得 {Value2} 层|寒冰甲|和 {Value3} 点|反射|。
+  FlavorText: "绝对零度防御！"
+
+CirnoRCharacterColdSprinkler:
+  Name: 冰块『冷冻洒水器』
+  Description: |-
+    对所有敌人施加|霜冻|。
+    施加 {Value1} 回合|虚弱|和|易伤|。
+    施加 {Value2} 点|暂失火力|。
+  FlavorText: "我从山中来~带着兰花草~种在小园中~希望花开早~啦啦啦啦啦，洒水车来喽~"
+
+CirnoRCharacterSuperIceKick:
+  Name: 冷体『超级回旋冰踢』
+  Description: |-
+    造成 {Damage} 点伤害。
+    抽 {Value1} 张牌。
+  UpgradedDescription: |-
+    造成 {Damage} 点伤害。
+    抽 {Value1} 张牌。
+    施加|霜冻| {Value2} 次。
+  FlavorText: "小心老腰~"
+
+CirnoRCharacterSwordFreezer:
+  Name: 冰符『剑式制冰器』
+  Description: 获得 {Value1} 层|凝霜|。
+  FlavorText: "冰棍化剑！"
+
+CirnoRCharacterFreezeAtmosphere:
+  Name: 冻符『急冻大气』
+  Description: |-
+    获得 {Value1} 点|暂得火力|。
+    所有敌人获得 {Value2} 点|暂失火力|。
+  FlavorText: "别呼吸噢~"
+
+CirnoRCharacterIceTornado:
+  Name: 吹冰『碎冰龙卷』
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    将 {Value2} 张具有|放逐|、|虚无|的|冰霜射线|加入手中。
+  FlavorText: "魔理沙锐评：『你这招跟我的魔炮一样，属于物理外行狂欢。』"
+
+CirnoRCharacterGreatCrusher:
+  Name: 冰块『巨冰破碎』
+  Description: |-
+    将 {Value1} 张具有|放逐|、|虚无|的|冰霜射线|加入手中。
+    选择至多 {Value2} 张牌|放逐|，每|放逐|一张牌，将 {Value3} 张具有|放逐|、|虚无|的|冰霜射线|加入手中。
+  FlavorText: "雾之湖住建委提醒您：巨冰破碎后清运费用由被砸者承担"
+
+CirnoRCharacterPerfectGlacialist:
+  Name: 冰符『完美冰川学家』
+  Description: |- 
+    |冻伤|造成的伤害提升 {Value1} 倍。
+  FlavorText: "琪露诺昨天说她发了SCI……发表地点是湖面，影响因子是⑨。"
+
+CirnoRCharacterFrostKing:
+  Name: 冰王『霜冻之王』
+  Description: |-
+    获得 |冰泪|。
+    获得 {Value1} 层|极度霜寒|。
+  FlavorText: "让我来亲自告诉你，当一切结束，你会跪求我的宽恕。——阿尔萨斯"
+
+CirnoRCharacterFrostflow:
+  Name: 冰脉
+  Description: 获得 {Value1} 层|冰脉|。
+  FlavorText: "冰川的脉络，无尽的凝霜"
+
+CirnoRCharacterFrozenHexagram:
+  Name: 冰结六芒星
+  Description: |-
+    本回合内每打出一张蓝色卡牌，获得 {Value1} 点|暂得火力|和 {Value2} 点|护盾|。
+  UpgradedDescription: |-
+    获得 {Value1} 点|暂得火力|和 {Value2} 点|护盾|。
+    本回合内每打出一张蓝色卡牌，获得 {Value1} 点|暂得火力|和 {Value2} 点|护盾|。
+  FlavorText: "理论上六芒星能封印一切，实际上封印了一只青蛙，青蛙还自己跳出来了。"
+
+CirnoRCharacterFrozenHexagramShield:
+  Name: 冰结六芒星盾
+  Description: |-
+    {PlayerName}的回合结束时，获得 {Value1} 点|护盾|和 {Value2} 层|锁定|。
+  FlavorText: |-
+    琪露诺第无数次挑战"冰结六芒星"法术失败后，散落的冰晶在雾之湖中自行聚合。六片棱晶的夹角里，凝固着她施法时总打颤的手指留下的霜花。
+    「看好了！这是本天才用『冰结六芒星』压缩成的终极护盾！任何敌人靠近都会被冻成冰雕，连灵梦的阴阳玉都能冻成冰球滚走～」（骄傲甩头）
+
+CirnoRCharacterIcewindBarrier:
+  Name: 冰风屏障
+  Description: |-
+    选择至多 {Value1} 张手牌|放逐|，每|放逐|一张牌，获得 {Block} 点|护盾|、|格挡|和|反射|。
+  FlavorText: "风站在咱这边了。"
+
+CirnoRCharacterZeroBoundary:
+  Name: 零度结界
+  Description: |-
+    丢弃所有手牌，每丢弃一张牌，获得 {Block} 点|格挡|并对所有敌人造成 {Damage} 点伤害。
+  FlavorText: "让冰霜，净化一切！"
+
+CirnoRCharacterFrostEnergyBlessing:
+  Name: 冰气凝结
+  Description: |-
+    |抉择|：获得 {Value1} 点|暂得火力|；或获得 {Value2} 点|暂得灵力|。
+  ExtraDescription1: 获得 {Value1} 点|暂得火力|。。
+  ExtraDescription2: 获得 {Value2} 点|暂得灵力|。
+  FlavorText: "霜落在掌心，居然是暖的。"
+
+CirnoRCharacterFriendMana:
+  Name: 呼朋引伴
+  Description: |-
+    获得{Mana}。
+    |透支| {Value2} 。
+  UpgradedDescription: |-
+    获得{Mana}。
+    抽 {Value1} 张牌。
+    |透支| {Value2} 。
+  FlavorText: "正义的围殴他吧！"
+
+CirnoRCharacterGraze:
+  Name: 雾化身躯
+  Description: |-
+    失去 {Value1} 点生命。
+    获得 {Value2} 层|闪避|。
+  FlavorText: "把身体变成雾，理论上能躲一切攻击。"
+
+CirnoRCharacterBravePressure:
+  Name: 勇者的威压
+  Description: |-
+    施加 {Value1} 回合|虚弱|和|易伤|。
+    施加 {Value2} 点|暂失火力|和 {Value2} 层|锁定|。
+  FlavorText: "琪露诺站在雾之湖中央，双手叉腰，眼神犀利——然后大喊：『勇者在此！』。青蛙们纷纷跳走，效果拔群。"
+
+CirnoRCharacterExtraTurn:
+  Name: 雾之湖的时停恶作剧
+  Description: 结束{PlayerName}的回合，进行一个额外的回合。|时间有限|{Mana}。
+  FlavorText: "咲夜能停时间。咱也能冻住时间！"
+
+CirnoRCharacterDiscover:
+  Name: 发现宝藏
+  Description: |-
+    从|冰魄|、|冻符『完美冻结』|、|冰符『终极风暴』|和 {Value1} 张|稀有|卡牌中选择 {Value2} 张加入手中，这些牌牌具有|放逐|、|虚无|，非|费用X|牌|暂塑|为{Mana}。
+  FlavorText: "三选一，咱要挑最亮的。"
+
+CirnoRCharacterPerfectFreeze:
+  Name: 冻符『完美冻结』
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    施加|霜冻|。
+    获得|霜域|以及一层|霜蚀|。
+  FlavorText: "琪露诺招牌技，冻青蛙专用。青蛙：『呱？』琪露诺：『上次那个是试冻，这次是完美版。』"
+
+CirnoRCharacterUltimateBlizzard:
+  Name: 冰符『终极风暴』
+  Description: |-
+    |每支付|<sprite="ManaSprite" name="U">：获得 {Shield} 层|护盾|。
+    |每支付|{Mana}：对所有敌人造成 {Damage} 点伤害并施加|霜冻|。
+  FlavorText: "有多少给多少，咱不留后手。"
+
+CirnoRCharacterOmnislash:
+  Name: 幻符『超⑨武神霸斩』
+  Description: |-
+    本回合内每打出一张攻击牌，{SelfName}费用降低{Mana}。
+    获得 {Value1} 层|闪避|。
+    对所有敌人造成 {Damage} 点伤害 {Value2} 次。
+    每次造成伤害获得 {Value3} 点|暂得火力|。
+    每造成 {Value4} 次伤害获得 1 点|火力|。
+  FlavorText: "下次给你整个八刀一闪。"
+
+CirnoRCharacterCoolSunflower:
+  Name: 冰符『凉爽的向日葵』
+  Description: 将 {Value1} 张|妖精之花|加入手中。
+  UpgradedDescription: |-
+    将 {Value1} 张|妖精之花|加入手中。
+    将 {Value1} 张|妖精之花|暂塑为{Mana}并加入抽牌堆。
+    抽 {Value2} 张牌。
+  FlavorText: "向日葵向着太阳。咱种的这些，向着咱。"
+
+CirnoRCharacterHeal:
+  Name: 妖精的福音
+  Description: |-
+    恢复 {Value1} 点生命。
+    所有敌人恢复 {Value2} 点生命。
+  FlavorText: "福音是给所有人的。"
+
+CirnoRCharacterSpringAndTheFairy:
+  Name: 春与妖精
+  Description: |-
+    {PlayerName}的回合结束时，获得 {Value1} 点|护盾|并恢复 {Value1} 点生命。
+  FlavorText: "春天来了~万物生长~"
+
+CirnoRCharacterTwinFairies:
+  Name: 双生妖精
+  Description: |-
+    获得{Mana}。
+    下回合开始时获得{Mana}。
+  FlavorText: "我的公主，你在哪儿？"
+
+CirnoRCharacterTruthOfNature:
+  Name: 自然之理
+  Description: |-
+    每有一个敌人，获得{Mana}。
+    将一张|春与妖精|加入手中。
+  FlavorText: "自然不讲道理，咱也不讲。"
+
+CirnoRCharacterDeathOfNature:
+  Name: 自然消亡
+  Description: 对所有敌人施加 {Value1} 层|自然消亡|。
+  FlavorText: "万物都躲不过消亡的那天。"
+
+CirnoRCharacterAlert:
+  Name: 警戒
+  Description: |-
+    获得 {Block} 点|格挡|和 {Value2} 点|反射|。
+    如果有敌人的意图为攻击，额外获得 {Shield} 点|护盾|。
+  FlavorText: "别过来，咱数一二三啦！"
+
+CirnoRCharacterCoaching:
+  Name: 补习
+  Description: |-
+    抽 {Value1} 张牌。
+    |透支| {Value2} 。
+  UpgradedDescription: |-
+    抽 {Value1} 张牌。
+  FlavorText: "先借你的抄，明天还。"
+
+CirnoRCharacterTakeANap:
+  Name: 小憩
+  Description: 抽 {Value1} 张牌，将其中绿色牌加入手中。
+  FlavorText: "不要着急,不要着急,休息,休息一会儿。"
+
+CirnoRCharacterCirnoDoNotGetSick:
+  Name: 笨蛋是不会生病的！
+  Description: 移除{PlayerName}所有负面状态。
+  FlavorText: "笨蛋不会生病！咱说的。"
+
+CirnoRCharacterElfFlowerField:
+  Name: 妖精的花田
+  Description: |-
+    {PlayerName}的回合开始时，获得{Mana}。
+    {PlayerName}的回合开始时，将 {Value1} 张|妖精之花|加入手中。
+  FlavorText: "好多花啊，偷偷摘几朵，没人看到吧？嘻嘻。"
+
+CirnoRCharacterTheGarland:
+  Name: 祝福花环
+  Description: 每打出一张绿色牌，获得 {Value2} 点|暂得火力|。
+  FlavorText: "今天咱最好看了。"
+
+CirnoRCharacterNaturalize:
+  Name: 自然平衡
+  Description: |-
+    选择至多 {Value1} 张手牌|放逐|，每|放逐|一张牌，抽 {Value2} 张牌并获得{Mana}。
+  FlavorText: "咱也学会打坐了。"
+
+CirnoRCharacterThornyJungle:
+  Name: 荆棘丛林
+  Description: |-
+    获得 {Block} 点|格挡|和 {Value2} 层|自然庇护|。
+  FlavorText: "此路不通！"
+
+CirnoRCharacterNaturalField:
+  Name: 自然领域
+  Description: |-
+    {PlayerName}的回合结束时，对所有敌人施加 {Value1} 层|自然消亡|，持续 {Value2} 回合。
+  FlavorText: "空气里透着一股霉味儿。"
+
+CirnoRCharacterEntangledRoots:
+  Name: 根须缠绕
+  Description: |-
+    指定目标 {Value1} 回合无法行动。
+    打出卡牌后|放逐|手牌、抽牌堆和弃牌堆中所有{SelfName}。
+  FlavorText: "动不了了吧。"
+
+CirnoRCharacterTheGiftOfFogLake:
+  Name: 雾之湖的馈赠
+  Description: |-
+    抽 {Value1} 张牌，获得 {Mana}。
+    |透支| {Value2} 。
+  UpgradedDescription: |-
+    抽 {Value1} 张牌，获得 {Mana}。
+  FlavorText: "妖精的礼物，是这样的。"
+
+CirnoRCharacterFairyFeather:
+  Name: 妖精之羽
+  Description: |-
+    获得 {Block} 点|格挡|。
+    本回合内，每次使用绿色卡，对随机敌人施加 {Value2} 层|自然消亡|。
+  FlavorText: "羽毛比雪还轻。"
+
+CirnoRCharacterMakeASnowman:
+  Name: 堆雪人
+  Description: |-
+    获得 {Shield} 点|护盾|。
+    获得 {Value2} 层|闪避|。
+  FlavorText: "蘑菇是找魔理沙借的。"
+
+CirnoRCharacterFullyArmed:
+  Name: 全面武装
+  Description: |-
+    获得 {Block} 点|格挡|。
+    每有一个敌人拥有|自然消亡|，额外获得 {Value2} 层|寒冰甲|。
+  FlavorText: "化腐朽为力量。"
+
+CirnoRCharacterFairyFlower:
+  Name: 妖精之花
+  Description: |-
+    造成 {Damage} 点伤害。
+    攻击具有|冻伤|的目标时，伤害提高 {Value1} 点。
+    攻击具有|自然消亡|的目标时，每层|自然消亡|伤害提高 {Value2} 点。
+    每打出一张|盛夏之花|或|妖精之花|，伤害提高 {Value3} 点。
+    施加|自然消亡|。
+  FlavorText: "公主祝福过的花，咱会好好利用的。"
+
+CirnoRCharacterForceOfNature:
+  Name: 自然之声
+  Description: |-
+    {PlayerName}的回合开始时，获得{Mana}。
+    抽 {Value1} 张牌。
+  FlavorText: "自然的声音，是咱的力量。"
+
+CirnoRCharacterIceAndFlowers:
+  Name: 冰与花的圆舞曲
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    施加 {Value1} 次|霜冻|。
+    将 {Value2} 张|妖精之花|加入手中，它们|暂塑|为{Mana}，具有|放逐|、|虚无|、|精准|。
+  FlavorText: "「一、二、三——转！」……咱数到第二步就踩到花了。"
+
+CirnoRCharacterCoolAfternoon:
+  Name: 清凉午后
+  Description: |-
+    |抉择|：获得{Mana}；或获得 {Shield} 层|护盾|。
+  ExtraDescription1: 获得{Mana}。
+  ExtraDescription2: 获得 {Shield} 层|护盾|。
+  FlavorText: "下午三点，湖面上一个人都没有。咱躺上去，睡到傍晚。"
+
+CirnoRCharacterGuardianOfDaiyousei:
+  Name: 大妖精的守护
+  Description: |-
+    获得 {Shield} 点|护盾|。
+    {PlayerName}的回合结束时，获得 {Value2} 层|自然庇护|。
+  FlavorText: "公主守护咱的力量。"
+
+CirnoRCharacterFairyWind:
+  Name: 妖精之风
+  Description: |-
+    移除所有敌人的所有正面状态。
+    结束{PlayerName}的回合。
+  UpgradedDescription: |-
+    移除所有敌人的所有正面状态。
+    结束{PlayerName}的回合。
+  FlavorText: "这就是魔法！"
+
+CirnoRCharacterIcicleMachineGun:
+  Name: 冰符『冰柱机枪』
+  Description: 对随机敌人造成 {Damage} 点伤害 {Value1} 次。
+  FlavorText: "哒哒哒哒哒——！……刚才那是几发？算了，数不动了。"
+
+CirnoRCharacterFairySpin:
+  Name: 冰符『妖精旋转』
+  Description: |-
+    抽 {Value1} 张牌。
+    下回合开始时抽 {Value2} 张牌。
+  FlavorText: "转呀转呀转不停，绽放生命火光"
+
+CirnoRCharacterFuryFairy:
+  Name: 妖精之怒
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    施加 {Value1} 层|自然消亡|。
+  UpgradedDescription: |-
+    对所有敌人造成 {Damage} 点伤害。
+    施加 {Value1} 层|自然消亡|。
+  FlavorText: "公主真生气了！快跑啊~"
+
+CirnoRCharacterFriendDraw:
+  Name: 妖精集会
+  Description: |-
+    获得{Mana}。
+    将手牌补充至 {Value1} 张。
+    |透支| {Value2} 。
+  UpgradedDescription: |-
+    获得{Mana}。
+    将手牌补充至 {Value1} 张。
+    |透支| {Value2} 。
+  FlavorText: "跟咱走！一二一，一二一~"
+
+CirnoRCharacterNaturalOutbreak:
+  Name: 消亡腐化
+  Description: |-
+    对所有敌人施加 {Value1} 层|自然消亡|。
+    将所有敌人的|自然消亡|层数翻倍。
+  FlavorText: "别靠近，有点儿臭。"
+
+CirnoRCharacterSummerCoolness:
+  Name: 夏日清凉
+  Description: 恢复 {Value1} 点生命。
+  UpgradedDescription: 恢复 {Value1} 点生命。
+  FlavorText: "一到夏天，全湖的妖精都想起咱了。"
+
+CirnoRCharacterInstantFreezeRay:
+  Name: 冷符『瞬间冷冻光线』
+  Description: |-
+    造成 {Damage} 点伤害。
+    施加|霜冻|。
+    每有一点|冻伤|，额外造成 {Value1} 点伤害。
+  FlavorText: "魔理沙，来对波啊！老娘是最强哒！"
+
+CirnoRCharacterNaturalPlague:
+  Name: 自然瘟疫
+  Description: |-
+    对指定敌人施加 {Value1} 层|自然消亡|。
+    对其他敌人施加 {Value2} 层|自然消亡|。
+  UpgradedDescription: |-
+    对指定敌人施加 {Value1} 层|自然消亡|。
+    对其他敌人施加 {Value2} 层|自然消亡|。
+    触发所有敌人的|自然消亡|一次。
+  FlavorText: "戴好口罩，小心传染!"
+
+CirnoRCharacterWindGodBoost:
+  Name: 风神助推
+  Description: 获得 {Value1} 层|风神助推|。
+  FlavorText: "来自文文的祝福"
+
+CirnoRCharacterWither:
+  Name: 凋零
+  Description: |-
+    |每支付|<sprite="ManaSprite" name="G">：对所有敌人施加 {Value1} 层|自然消亡|。
+    |每支付|{Mana}：触发所有敌人的|自然消亡|一次。
+  UpgradedDescription: |-
+    对所有敌人施加 {Value1} 层|自然消亡|。
+    |每支付|<sprite="ManaSprite" name="G">：对所有敌人施加 {Value1} 层|自然消亡|。
+    |每支付|{Mana}：触发所有敌人的|自然消亡|一次。
+  FlavorText: "鲜花终会凋零。"
+
+CirnoRCharacterTheHiddenBiosphere:
+  Name: 被隐藏的生物圈
+  Description: |-
+    {PlayerName}的回合结束时，触发所有敌人的|自然消亡|。
+  FlavorText: "湖底一直在响。有人以为是水声。咱知道不是。"
+
+CirnoRCharacterFireworksFestival:
+  Name: 烟花大会
+  Description: 从 {Value1} 张随机的防御牌中选择一张加入手中，它|暂塑|为{Mana}。
+  FlavorText: "锵锵～！烟花大会开始啦！"
+
+CirnoRCharacterIceTears:
+  Name: 冰泪
+  Description: 获得一层|冰泪|。
+  FlavorText: "“下雨了”“没啊…”“不！下雨了”"
+
+CirnoRCharacterFreezeBloodIntoIce:
+  Name: 凝血成冰
+  Description: |-
+    {PlayerName}的回合开始时，失去 {Value1} 点生命，获得 {Value1} 点|火力|。
+  UpgradedDescription: |-
+    获得 {Value1} 点|火力|。
+    {PlayerName}的回合开始时，失去 {Value1} 点生命，获得 {Value1} 点|火力|。
+  FlavorText: "这是我最后的波纹了。"
+
+CirnoRCharacterEncounterRain:
+  Name: 冻雨
+  Description: |-
+    获得 {Value1} 层|冰脉| 和 {Value2} 层|冻雨|。
+  FlavorText: "出门记得带伞~"
+
+CirnoRCharacterIceBead:
+  Name: 冰霜射线
+  Description: |-
+    造成 {Damage} 点伤害。
+    施加|霜冻|。
+    本回合内每打出一张蓝色牌，{SelfName}伤害增加 {Value2} 点。
+    如果敌人具有|自然消亡|，额外造成 {Value3} 点伤害。
+  FlavorText: "滋————滋————滋————啊？能量不够了？"
+
+CirnoRCharacterBloodShield:
+  Name: 化血成盾
+  Description: |-
+    |抉择|：失去 {Value1} 点生命，获得 {Value2} 点|护盾|；或失去 {Value3} 点生命，获得 {Value4} 点|护盾|。
+  ExtraDescription1: 失去 {Value1} 点生命，获得 {Value2} 点|护盾|。
+  ExtraDescription2: 失去 {Value3} 点生命，获得 {Value4} 点|护盾|。
+  FlavorText: "咱可是连血都能变成冰的哦！普通的妖精才做不到呢！啊？有点儿疼。"
+
+CirnoRCharacterFairyTeaParty:
+  Name: 妖精的茶会
+  Description: |-
+    本回合内，每打出一张蓝色牌，抽 {Value1} 张牌；每打出一张绿色牌，获得{Mana}。
+    抽牌数和获得法力数累计不超过 {Value2} 次。
+    打出卡牌后|放逐|手牌、抽牌堆和弃牌堆中所有{SelfName}。
+  FlavorText: "点心来喽~点心来喽~"
+
+CirnoRCharacterDreamCirno:
+  Name: 魔法天才-琪露诺
+  Description: |-
+    |抉择|：将 {Value1} 张|魔法手雷|加入弃牌堆；或将 {Value1} 张|麻瓜魔杖|加入弃牌堆。
+  ExtraDescription1: 将 {Value1} 张|魔法手雷|加入弃牌堆。
+  ExtraDescription2: 将 {Value1} 张|麻瓜魔杖|加入弃牌堆。
+  UpgradedDescription: 将 {Value1} 张|魔法手雷|和 {Value1} 张|麻瓜魔杖|加入弃牌堆。
+  FlavorText: "锵锵～！天才的魔法表演时间！"
+
+CirnoRCharacterMagicGrenade:
+  Name: 魔法手雷
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    施加|魔法余波|。
+  FlavorText: "Fire The Hole!"
+
+CirnoRCharacterMuggleWand:
+  Name: 麻瓜魔杖
+  Description: |-
+    造成 {Damage} 点伤害 {Value1} 次。
+    施加|枪伤|。
+  FlavorText: "这玩意可比魔杖好使多了"
+
+CirnoRCharacterIceSoul:
+  Name: 冰魄
+  Description: |-
+    每次使用蓝色牌，获得 {Value1} 点|格挡|。
+    每次施加|霜冻|时，获得 {Value2} 点|护盾|。
+  FlavorText: "那是孤独的雪，是死掉的雨，是雨的精魂。"
+
+CirnoRCharacterSymbioticRoot:
+  Name: 共栖根络​
+  Description: |-
+    {PlayerName} 每次失去生命时, 如果伤害来源于敌人，触发敌人的|自然消亡|。
+  FlavorText: "咱要把挨的打还回去。"
+
+CirnoRCharacterAFragranceWithinReach:
+  Name: 咫尺芳香
+  Description: |-
+    获得 {Block} 点|格挡|。
+    本场战斗每打出一张|妖精之花|，额外获得 {Value2} 点|格挡|。
+  FlavorText: "呼哧呼哧——呼哧呼哧——大酱好香呀。"
+
+CirnoRCharacterTheCounterattackBegins:
+  Name: 反击开始
+  Description: |-
+    对所有敌人造成 {Damage} 点伤害。
+    每有一个敌人具有|自然消亡|, 额外造成一次伤害。
+  FlavorText: "现在，咱要认真了！"
+
+CirnoRCharacterWalkingInTheRain:
+  Name: 雨中漫步
+  Description: |-
+    获得 {Block} 点格挡。
+    本回合中，每当你打出一张绿色牌，获得 {Value2} 点格挡。
+  FlavorText: "于暴雨中行走，伞是倒划天空的船。"
